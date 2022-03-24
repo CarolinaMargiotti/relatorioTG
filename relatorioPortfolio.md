@@ -5,7 +5,7 @@
 (foto a por)
 
 ## Escolaridade
-<p style="text-align: justify;">
+<p align="justify">
 
 Em 2017 eu me matriculei no curso técnico de informatica no colégio Univap Unidade Centro e foi la onde tive meu primeiro contato com programação, durante os três anos aprendi desde o basico com variaveis, estruturas de repetição até POO e computação gráfica. La tive um aprendizado bem sólido com inumeras listas para entendermos bem o basico e sou bem grata por isso. No último ano fiz uma apresentação do TCC em que eu codifiquei sozinha um site de bookmarks e anotações com tema planetario e fui aprovada com sucesso.
 
