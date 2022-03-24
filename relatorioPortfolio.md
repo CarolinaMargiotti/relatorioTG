@@ -35,11 +35,11 @@ Nossa solução foi fazer dois projetos, um com Arduino para cuidar da parte fí
 #### Hardware
 
 No hardware foram utilizados:
-- Uma balança de carga 5kg
+- Uma balança de carga 5kg \
 Usado para calcular o peso de ração presente no dispensador, para mandar um aviso quando esta vazio e precisa ser reenchido.
-- Um motor 12V 15KGF
+- Um motor 12V 15KGF \
 Responsavel pelo movimento de girar para derrubar ração.
-- WI-FI Lora 915MHZ
+- WI-FI Lora 915MHZ \
 Se conecta ao banco para enviar dados novos.
 - Placa arduino Bluetooth
 - Placa HX711
