@@ -1,3 +1,5 @@
+<div style="text-align: justify">
+
 # Carolina Margiotti de Abreu
 
 # Introdução
@@ -41,7 +43,11 @@ Placa HX711
 - Aplicativo Mobile
 
 Abaixo esta a tela principal do aplicativo que será explicado de cima para baixo á seguir. \
+
+<div style="align: center">
+
 <img alt="tela aplicativo de agendamento" src="./imagens/tela aplicativo little pet.png" height="500">
+</div>
 
 1. Um bloco informando qual usuario esta conectado e o botão para deslogar o mesmo.
 2. Um botão de seleção em que o usuario pode selecionar uma entre todas as conexões disponiveis ao redor.
@@ -75,3 +81,4 @@ Abaixo esta a tela principal do aplicativo que será explicado de cima para baix
 - Hard Skills
 
 - Soft Skills
+</div>
