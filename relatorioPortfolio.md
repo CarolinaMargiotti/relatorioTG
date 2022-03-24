@@ -18,6 +18,7 @@ Em 2021 sai da PRTi Digital eu comecei meu estágio na SOLUCX (agora com o está
 # Meus Projetos
 
 ## Em 2020-1 (LittlePet)
+<img alt="Logo littlePet" src="./imagens/logo little pet.png" height="100">
 
 ### Empresa
 A Faculdade de Tecnologia de São José dos Campos oferece vários cursos para graduação de nivel superior.
@@ -28,12 +29,30 @@ Os dispensadores automaticos de ração existentes hoje em dia no mercado foram 
 ### Solução
 Nossa solução foi fazer dois projetos, um com arduino para cuidar da parte fisica do dispensador e o segundo um aplicativo mobile que cuidou da parte de agendamento prático dos dispensamentos de ração.
 
-- Hardware
-No hardware foram utilizados
+- Hardware \
+
+No hardware foram utilizados: \
+Uma balança de carga 5kg \
+Um motor 12V 15KGF \
+WI-FI Lora 915MHZ \
+Placa arduino Bluetooth \
+Placa HX711 \
 
 - Aplicativo Mobile
 
+Abaixo esta a tela principal do aplicativo que será explicado de cima para baixo á seguir.
 <img alt="tela aplicativo de agendamento" src="./imagens/tela aplicativo little pet.png" height="500">
+
+1. Um bloco informando qual usuario esta conectado e o botão para deslogar o mesmo.
+2. Um botão de seleção em que o usuario pode selecionar uma entre todas as conexões disponiveis ao redor.
+3. Um texto informado se a conexão teve sucesso ou não.
+4. A lista dos horarios de dispensamento criados pelo usuario, quando não esta informado quais os dias da semana o alarme será diariamente.
+5. Botão para abrir um modal para seleção do horario para o agendamento (Aparece-se um texto embaixo informando qual o selecionado para confirmação).
+6. Um array de botões, quando o usuario clica em um ele se torna verde informando que aquele dia será incluso na rotina para o horario selecionado do alarme.
+7. Botão para confirmar a adição do horario novo.
+8. Um texto adicionado para a etapa de desenvolvimento, informando onde o aparelho estava conectado, retirado na versão final.
+
+
 
 
 #### Tecnologias Utilizadas
