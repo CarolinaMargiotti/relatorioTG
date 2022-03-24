@@ -24,7 +24,11 @@ Em 2021 sai da PRTi Digital eu comecei meu estágio na SOLUCX (agora com o está
 </p>
 
 ### Empresa
-A Faculdade de Tecnologia de São José dos Campos oferece vários cursos para graduação de nível superior neles incluindo analise e desenvolvimento de sistemas, Banco de dados, manutenção de aeronaves entre outros.
+As fatecs são instituições importantes para o Brasil em ensino superior, sendo pioneiras na graduação de tecnólogos e localizadas em varias cidades pelo estado de São Paulo. A unidade de São José dos Campos oferece vários cursos para graduação de nível superior neles incluindo analise e desenvolvimento de sistemas, Banco de dados, manutenção de aeronaves entre outros.
+
+Em 2020 foi iniciado o projeto integrador na fatec, em que a faculdade fazia parceria com empresas para realizar um projeto em conjunto, os alunos recebiam o problema das empresas e elaboram uma solução que é apresentada em sprints e no fim há uma feira de soluções com cada grupo de alunos apresentando seus projetos.
+
+No primeiro semestre os alunos decidem um próprio problema para resolver no decorrer do semestre.
 
 ### Problema
 Os dispensadores automáticos de ração existentes hoje em dia no mercado foram feitos para trabalhar com ração de cachorros e gatos principalmente, um trabalho no qual ele faz muito bem, mas peca quando é usado com outros tipos de ração tipo o de roedores que é normalmente encontrado no formato cilíndrico, que muitas vezes empaca no dispensador entre outros inconvenientes. O projeto virava oferecer uma opção de dispensador de ração automático feito para roedores, contendo inclusive a possibilidade de se programar quando a ração será dispensada.
@@ -42,7 +46,9 @@ Responsavel pelo movimento de girar para derrubar ração.
 - WI-FI Lora 915MHZ \
 Se conecta ao banco para enviar dados novos.
 - Placa arduino Bluetooth
+Se comunica com outros componentes sendo utilizados.
 - Placa HX711
+Converte os valores de peso da balança para dados digitais.
 
 #### Aplicativo Mobile
 
