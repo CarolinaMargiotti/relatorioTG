@@ -1,4 +1,3 @@
-<p style="text-align: justify;">
 
 # Carolina Margiotti de Abreu
 
@@ -6,11 +5,14 @@
 (foto a por)
 
 ## Escolaridade
+<p style="text-align: justify;">
+
 Em 2017 eu me matriculei no curso técnico de informatica no colégio Univap Unidade Centro e foi la onde tive meu primeiro contato com programação, durante os três anos aprendi desde o basico com variaveis, estruturas de repetição até POO e computação gráfica. La tive um aprendizado bem sólido com inumeras listas para entendermos bem o basico e sou bem grata por isso. No último ano fiz uma apresentação do TCC em que eu codifiquei sozinha um site de bookmarks e anotações com tema planetario e fui aprovada com sucesso.
 
 Após me formar do colégio Univap em 2019 iniciei meus estudos na Fatec em 2020 para amadurecer mais meu conhecimento e aprender o que o técnico não teve tempo de me ensinar. Os primeiros semestres foram para mim uma revisão do que eu ja tinha visto de programação na Univap mas pude experimentar também tecnologias e linguagens novas que não tinha visto ainda, bem como o modelo de projetos API, (Aprendizado Projeto Integrador) em que todo semestre nós em grupos trabalhamos em uma aplicação para resolver problemas de clientes reais (Empresas em associação com a Fatec), que me ajudou a desenvolver mais minhas soft skills e explorar os meios de organização de projeto e trabalho em grupo usados na área.
 
 No segundo ano de estudos eu pude começar a ver conteudo novo de verdade e utilizar melhor de meu conhecimento antigo e novo para a realização de projetos, e me sentir mais segura e profissional neles.
+</p>
 
 ## Experiência Profissional
 Comecei com meu primeiro estágio (ele sendo para minha formação do técnico de informática) em julho de 2019 na PRTi Digital, a empresa trabalhava com RPA (Robotic Proccess Automation) onde utilizava as tecnologias Automation Anywhere e UIPath para a programação de robos para efetuar processos repetitivos e maçantes no lugar de seres humanos, salvando tempo para as empresas por eles serem mais rapidos e ter uma taxa de erro quase nula. Participei de três grandes entregas de robo para a empresa onde eu fui bem responsavel pela codificação, sendo a que mais mostrou resultados com o treinamento e com a empresa não tendo muito programadores RPA ainda na época. Embora eu usasse bastante lógica de programação e as vezes programação em si (UIPath tinha campos em que voce codificava em C#) eu ainda queria ter a experiencia com trabalhar em uma aplicação de verdade o que me levou ao meu segundo estágio.
@@ -20,8 +22,9 @@ Em 2021 sai da PRTi Digital eu comecei meu estágio na SOLUCX (agora com o está
 # Meus Projetos
 
 ## Em 2020-1 (LittlePet)
+<p align="center">
 <img alt="Logo littlePet" src="./imagens/logo little pet.png" height="100">
-
+</p>
 ### Empresa
 A Faculdade de Tecnologia de São José dos Campos oferece vários cursos para graduação de nivel superior.
 
@@ -42,10 +45,9 @@ Placa HX711
 
 - Aplicativo Mobile
 
-Abaixo esta a tela principal do aplicativo que será explicado de cima para baixo á seguir. \
+Abaixo esta a tela principal do aplicativo que será explicado de cima para baixo á seguir.
 
 <p align="center">
-
 <img alt="tela aplicativo de agendamento" src="./imagens/tela aplicativo little pet.png" height="500">
 </p>
 
@@ -81,4 +83,3 @@ Abaixo esta a tela principal do aplicativo que será explicado de cima para baix
 - Hard Skills
 
 - Soft Skills
-</p>
