@@ -29,18 +29,18 @@ Os dispensadores automaticos de ração existentes hoje em dia no mercado foram 
 ### Solução
 Nossa solução foi fazer dois projetos, um com arduino para cuidar da parte fisica do dispensador e o segundo um aplicativo mobile que cuidou da parte de agendamento prático dos dispensamentos de ração.
 
-- Hardware \
+- Hardware
 
 No hardware foram utilizados: \
 Uma balança de carga 5kg \
 Um motor 12V 15KGF \
 WI-FI Lora 915MHZ \
 Placa arduino Bluetooth \
-Placa HX711 \
+Placa HX711
 
 - Aplicativo Mobile
 
-Abaixo esta a tela principal do aplicativo que será explicado de cima para baixo á seguir.
+Abaixo esta a tela principal do aplicativo que será explicado de cima para baixo á seguir. \
 <img alt="tela aplicativo de agendamento" src="./imagens/tela aplicativo little pet.png" height="500">
 
 1. Um bloco informando qual usuario esta conectado e o botão para deslogar o mesmo.
