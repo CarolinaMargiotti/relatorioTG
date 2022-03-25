@@ -125,14 +125,19 @@ Abaixo está a tela principal do aplicativo que será explicado de cima para bai
 #### Tecnologias Utilizadas
 - Kodular
 
+Para a programação mobile.
+
 <img alt="Kodular" title="Kodular" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fs3-eu-west-1.amazonaws.com%2Ftpd%2Flogos%2F5e0b334f707fc40001351cf8%2F0x0.png&f=1&nofb=1" height="75">
 
 - Arduino
+
+Para o uso em hardware.
 
 <img alt="Arduino" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Flogodownload.org%2Fwp-content%2Fuploads%2F2019%2F03%2Farduino-logo-0.png&f=1&nofb=1" height="75">
 
 - Firebase
 
+Banco de dados utilizado.
 <img alt="Firebase" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fpluspng.com%2Fimg-png%2Ffirebase-logo-png-firebase-logo-png-transparent-amp-svg-vector-pluspng-2400x3291.png&f=1&nofb=1" height="75">
 
 
