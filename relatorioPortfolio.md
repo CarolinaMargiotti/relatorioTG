@@ -75,6 +75,19 @@ Converte os valores de peso da balança para dados digitais.
 <img alt="hx711" src="./imagens/hx711.jpg" height="300">
 </p>
 
+Segue imagem do projeto abaixo com alguns itens visiveis demarcados:
+
+<p align="center">
+<img alt="hx711" src="./imagens/projeto hardware.png" height="500">
+</p>
+
+1. Motor
+2. Placa arduino
+3. WI-FI Lora
+4. Balança de carga
+5. HX711
+
+
 #### Aplicativo Mobile
 
 Abaixo está a tela principal do aplicativo que será explicado de cima para baixo a seguir.
