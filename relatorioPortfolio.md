@@ -138,6 +138,7 @@ Para o uso em hardware.
 - Firebase
 
 Banco de dados utilizado.
+
 <img alt="Firebase" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fpluspng.com%2Fimg-png%2Ffirebase-logo-png-firebase-logo-png-transparent-amp-svg-vector-pluspng-2400x3291.png&f=1&nofb=1" height="75">
 
 
