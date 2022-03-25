@@ -45,9 +45,9 @@ Usado para calcular o peso de ração presente no dispensador, para mandar um av
 Responsavel pelo movimento de girar para derrubar ração.
 - WI-FI Lora 915MHZ \
 Se conecta ao banco para enviar dados novos.
-- Placa arduino Bluetooth
+- Placa arduino Bluetooth \
 Se comunica com outros componentes sendo utilizados.
-- Placa HX711
+- Placa HX711 \
 Converte os valores de peso da balança para dados digitais.
 
 #### Aplicativo Mobile
