@@ -18,15 +18,15 @@ Em 2021 sai da PRTi Digital eu comecei meu estágio na SOLUCX (agora com o está
 
 # Meus Projetos
 
-## Em 2020-1 (LittlePet)
+## Em 2020-1 (LittlePet) 1º Semestre
 <p align="center">
 <img alt="Logo littlePet" src="./imagens/logo little pet.png" height="100">
 </p>
 
 ### Empresa
-As fatecs são instituições importantes para o Brasil em ensino superior, sendo pioneiras na graduação de tecnólogos e localizadas em varias cidades pelo estado de São Paulo. A unidade de São José dos Campos oferece vários cursos para graduação de nível superior neles incluindo analise e desenvolvimento de sistemas, Banco de dados, manutenção de aeronaves entre outros.
+As Fatecs são instituições importantes para o Brasil em ensino superior, sendo pioneiras na graduação de tecnólogos e localizadas em vÁrias cidades pelo estado de São Paulo. A unidade de São José dos Campos oferece um grande número de cursos para graduação de nível superior neles incluindo analise e desenvolvimento de sistemas, Banco de dados, manutenção de aeronaves entre outros.
 
-Em 2020 foi iniciado o projeto integrador na fatec, em que a faculdade fazia parceria com empresas para realizar um projeto em conjunto, os alunos recebiam o problema das empresas e elaboram uma solução que é apresentada em sprints e no fim há uma feira de soluções com cada grupo de alunos apresentando seus projetos.
+Em 2020 foi iniciado o projeto integrador na Fatec, em que a faculdade fazia parceria com empresas para realizar um projeto em conjunto, os alunos recebiam o problema das empresas e elaboram uma solução que é apresentada em sprints e no fim há uma feira de soluções com cada grupo de alunos apresentando seus projetos.
 
 No primeiro semestre os alunos decidem um próprio problema para resolver no decorrer do semestre.
 
@@ -41,7 +41,7 @@ Nossa solução foi fazer dois projetos, um com Arduino para cuidar da parte fí
 No hardware foram utilizados:
 - Uma balança de carga 5kg
 
-Usado para calcular o peso de ração presente no dispensador, para mandar um aviso quando esta vazio e precisa ser reenchido.
+Usado para calcular o peso de ração presente no dispensador, para mandar um aviso quando está vazio e precisa ser reenchido.
 <p align="center">
 <img alt="balança de carga" src="./imagens/balança de carga.jpg" height="300" width="300">
 </p>
@@ -49,7 +49,7 @@ Usado para calcular o peso de ração presente no dispensador, para mandar um av
 
 - Um motor 12V 15KGF
 
-Responsavel pelo movimento de girar para derrubar ração.
+Responsável pelo movimento de girar para derrubar ração.
 <p align="center">
 <img alt="motor" src="./imagens/motor.jpg" height="300">
 </p>
@@ -61,7 +61,7 @@ Se conecta ao banco para enviar dados novos.
 <img alt="wifi lora" src="./imagens/wifi lora.jpg" height="300">
 </p>
 
-- Placa arduino Bluetooth
+- Placa Arduino Bluetooth
 
 Se comunica com outros componentes sendo utilizados.
 <p align="center">
@@ -75,14 +75,14 @@ Converte os valores de peso da balança para dados digitais.
 <img alt="hx711" src="./imagens/hx711.jpg" height="300">
 </p>
 
-Segue imagem do projeto abaixo com alguns itens visiveis demarcados:
+Segue imagem do projeto abaixo com alguns itens visíveis demarcados:
 
 <p align="center">
 <img alt="hx711" src="./imagens/projeto hardware.png" height="500">
 </p>
 
 1. Motor
-2. Placa arduino
+2. Placa Arduino
 3. WI-FI Lora
 4. Balança de carga
 5. HX711
@@ -123,7 +123,7 @@ Abaixo está a tela principal do aplicativo que será explicado de cima para bai
 
 ### Contribuições Pessoais
 #### Hard Skills
-- Lógica de programação: Eu tinha uma lógica de construção ja bem forte por conta do ensino técnico antes da faculdade, fui responsável pela lógica da agenda, programei grande parte dela.
+- Lógica de programação: Eu tinha uma lógica de construção já bem forte por conta do ensino técnico antes da faculdade, fui responsável pela lógica da agenda, programei grande parte dela.
 - Banco de dados: Já havia mexido com firebase antes no técnico, mas tive chance de poder aprender ele numa plataforma diferente da que estava acostumada e fiquei mais flexível com o uso dele.
 - Kodular: Aprendi uma nova ferramenta para desenvolvimento mobile, anteriormente só tinha tido a chance de experimentar Android Studio, sendo uma ferramenta simples estou segura que se abrisse novamente poderia programar um aplicativo novamente sem grandes problemas.
 
