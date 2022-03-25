@@ -41,33 +41,33 @@ Nossa solução foi fazer dois projetos, um com Arduino para cuidar da parte fí
 No hardware foram utilizados:
 - Uma balança de carga 5kg
 <p align="center">
-<img alt="balança de carga" src="./imagens/balança de carga.jpg" height="500">
+<img alt="balança de carga" src="./imagens/balança de carga.jpg" height="500" width="500>
 </p>
-Usado para calcular o peso de ração presente no dispensador, para mandar um aviso quando esta vazio e precisa ser reenchido.
+Usado para calcular o peso de ração presente no dispensador, para mandar um aviso quando esta vazio e precisa ser reenchido. \
 
 - Um motor 12V 15KGF
 <p align="center">
 <img alt="motor" src="./imagens/motor.jpg" height="500">
 </p>
-Responsavel pelo movimento de girar para derrubar ração.
+Responsavel pelo movimento de girar para derrubar ração. \
 
 - WI-FI Lora 915MHZ
 <p align="center">
 <img alt="wifi lora" src="./imagens/wifi lora.jpg" height="500">
 </p>
-Se conecta ao banco para enviar dados novos.
+Se conecta ao banco para enviar dados novos. \
 
 - Placa arduino Bluetooth
 <p align="center">
 <img alt="placa arduino" src="./imagens/bluetooth.jpg" height="500">
 </p>
-Se comunica com outros componentes sendo utilizados.
+Se comunica com outros componentes sendo utilizados. \
 
 - Placa HX711
 <p align="center">
 <img alt="hx711" src="./imagens/hx711.jpg" height="500">
 </p>
-Converte os valores de peso da balança para dados digitais.
+Converte os valores de peso da balança para dados digitais. \
 
 #### Aplicativo Mobile
 
