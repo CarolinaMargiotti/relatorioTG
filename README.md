@@ -32,10 +32,10 @@ No segundo ano de estudos eu pude começar a ver conteúdo novo de verdade e uti
 
 ## Experiência Profissional
 <p align="justify">
-Comecei com meu primeiro estágio (ele sendo para minha formação do técnico de informática) em julho de 2019 na PRTi Digital, a empresa trabalhava com RPA (Robotic Proccess Automation) onde utilizava as tecnologias Automation Anywhere e UIPath para a programação de robôs para efetuar processos repetitivos e maçantes no lugar de seres humanos, salvando tempo para as empresas por eles serem mais rápidos e ter uma taxa de erro quase nula. Participei de três grandes entregas de robô para a empresa onde eu fui bem responsável pela codificação, sendo a que mais mostrou resultados com o treinamento e com a empresa não tendo muito programadores RPA ainda na época. Embora eu usasse bastante lógica de programação e as vezes programação em si (UIPath tinha campos em que você codificava em C#) eu ainda queria ter a experiencia com trabalhar em uma aplicação de verdade o que me levou ao meu segundo estágio.
+Comecei com meu primeiro estágio (ele sendo para minha formação do técnico de informática) em julho de 2019 na PRTi Digital, a empresa trabalhava com RPA (Robotic Proccess Automation) onde utilizava as tecnologias Automation Anywhere e UIPath para a programação de robôs para efetuar processos repetitivos e maçantes no lugar de seres humanos, salvando tempo para as empresas por eles serem mais rápidos e ter uma taxa de erro quase nula. Participei de três grandes entregas de robô para a empresa onde eu fui bem responsável pela codificação, sendo a que mais mostrou resultados com o treinamento e com a empresa não tendo muito programadores RPA ainda na época. Embora eu usasse bastante lógica de programação e as vezes programação em si (UIPath tinha campos em que você codificava em C#) eu ainda queria ter a experiência com trabalhar em uma aplicação de verdade o que me levou ao meu segundo estágio.
 </p>
 <p align="justify">
-Em 2021 sai da PRTi Digital eu comecei meu estágio na SOLUCX (agora com o estágio valendo para a faculdade), uma empresa que trabalha com pesquisas de satisfação de serviços para inúmeras empresas pelo brasil. Trabalhando lá já consegui níveis altos de experiencia e conhecimento novo, mexi com ferramentas e frameworks novos que não tinha visto nada parecido em sala ainda, experienciei SCRUM como ele realmente é para ser feito, aprendi sobre testes unitários e outros times envolvidos no desenvolvimento de uma aplicação como o de Quality Assurance que nunca ouvirá até o momento. Ainda estou lá até o momento e ainda estou aprendendo muito e tendo oportunidades de me desafiar.
+Em 2021 sai da PRTi Digital eu comecei meu estágio na SOLUCX (agora com o estágio valendo para a faculdade), uma empresa que trabalha com pesquisas de satisfação de serviços para inúmeras empresas pelo Brasil. Trabalhando lá já consegui níveis altos de experiencia e conhecimento novo, mexi com ferramentas e frameworks novos que não tinha visto nada parecido em sala ainda, experienciei SCRUM como ele realmente é para ser feito, aprendi sobre testes unitários e outros times envolvidos no desenvolvimento de uma aplicação como o de Quality Assurance que nunca ouvirá até o momento. Ainda estou lá até o momento e ainda estou aprendendo muito e tendo oportunidades de me desafiar.
 </p>
 # Meus Projetos
 
@@ -64,7 +64,7 @@ Os dispensadores automáticos de ração existentes hoje em dia no mercado foram
 
 ### Solução
 <p align="justify">
-Nosso grupo, que continha 6 elementos (comigo estando no time de desenvolvimento) teve a solução de fazer dois projetos, um com Arduino para cuidar da parte física do dispensador e o segundo um aplicativo mobile que cuidou da parte de agendamento prático dos dispensamentos de ração.
+Nosso grupo, que continha 6 elementos (comigo estando no time de desenvolvimento) teve a solução de fazer dois projetos, um com Arduino para cuidar da parte física do dispensador e o segundo um aplicativo mobile que cuidou da parte de agendamento prático para notificar a hora de dispensar ração, customizada pelo usuario.
 </p>
 
 #### Hardware
@@ -141,7 +141,7 @@ Abaixo está a tela principal do aplicativo que será explicado de cima para bai
 A seguir explicarei alguns códigos principais do projeto e que eu fui responsavel por programar eles.
 
 
-#### Notificação do alarme.
+#### Notificação do alarme
 
 O usuario poderia agendar horarios nos quais a ração seria dispensada do dispensador, na mesma hora o aplicativo notificava o usuario.
 
@@ -167,6 +167,27 @@ Caso o horário seja semanal:
 10. É enviado ao bluetooth o texto 1 que sinaliza o arduino para dispensar ração.
 11. Uma notificação é enviada para o usuario informanaod que a ração foi dispensada.
 
+#### Salvando os horarios no banco
+Aqui segue o código utilizado para salvar um horário para o dispensar da ração.
+
+<p align="center">
+<img alt="código salvando horario de alarme" src="./imagens/salvar horario numerado.png" height="500">
+</p>
+
+1. Primeiro se é verificado se o horario é semanal, se não tem valor na lista de dias da semana escolhidos assumi-se que não.
+
+Caso não:
+
+2. A hora é adicionada na lista demarcada para os alarmes que vão ser tocados só uma vez, sendo ela no dia em que foram criadas.
+3. Da mesma forma é adicionado na lista de horarios á serem alertados hoje o horario escolhido.
+
+Caso sim:
+
+4. Condição para se verificar se o horario criado hoje acontecesse de cair numa data que é para ser acionado.
+5. Caso sim ele é adicionado na lista dos horarios para serem acionados no dia.
+6. Para cada dia da semana que foi selecionada para o horario acionar (Segunda, Quarta, Quinta por exemplo) o alarme, as ações 7 e 8 serão feitas.
+7. Pede-se para o banco de dados guardar o horario no campo especificado na tag, sendo ele dentro da agenda do usuario logado e dentro da lista do dia da semana.
+8. Um id que diferencia os horarios é atribuido uma unidade a mais para o próximo valor não o substituir.
 
 
 
@@ -193,7 +214,7 @@ Banco de dados utilizado.
 ### Contribuições Pessoais
 #### Hard Skills
 - Lógica de programação: Eu tinha uma lógica de construção já bem forte por conta do ensino técnico antes da faculdade, fui responsável pela lógica da agenda, programei grande parte dela.
-- Banco de dados: Já havia mexido com firebase antes no técnico, mas tive chance de poder aprender ele numa plataforma diferente da que estava acostumada e fiquei mais flexível com o uso dele.
+- Banco de dados: Já havia trabalhado com firebase antes no técnico, mas tive chance de poder aprender ele numa plataforma diferente da que estava acostumada e fiquei mais flexível com o uso dele.
 - Kodular: Aprendi uma nova ferramenta para desenvolvimento mobile, anteriormente só tinha tido a chance de experimentar Android Studio, sendo uma ferramenta simples estou segura que se abrisse o kodular novamente poderia programar um aplicativo novamente sem grandes problemas.
 
 #### Soft Skills
