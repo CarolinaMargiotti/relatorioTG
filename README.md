@@ -20,11 +20,13 @@
 (foto a por)
 
 ## Escolaridade
+<p align="justify">
 Em 2017 eu me matriculei no curso técnico de informática no colégio Univap Unidade Centro e foi lá onde tive meu primeiro contato com programação, durante os três anos aprendi desde o básico com variáveis, estruturas de repetição até POO e computação gráfica. La tive um aprendizado bem sólido com inúmeras listas para entendermos bem o básico e sou bem grata por isso. No último ano fiz uma apresentação do TCC em que eu codifiquei sozinha um site de bookmarks e anotações com tema planetário e fui aprovada com sucesso.
 
 Após me formar do colégio Univap em 2019 iniciei meus estudos na Fatec em 2020 para amadurecer mais meu conhecimento e aprender o que o técnico não teve tempo de me ensinar. Os primeiros semestres foram para mim uma revisão do que eu já tinha visto de programação na Univap mas pude experimentar também tecnologias e linguagens novas que não tinha visto ainda, bem como o modelo de projetos API, (Aprendizado Projeto Integrador) em que todo semestre nós em grupos trabalhamos em uma aplicação para resolver problemas de clientes reais (Empresas em associação com a Fatec), que me ajudou a desenvolver mais minhas soft skills e explorar os meios de organização de projeto e trabalho em grupo usados na área.
 
 No segundo ano de estudos eu pude começar a ver conteúdo novo de verdade e utilizar melhor de meu conhecimento antigo e novo para a realização de projetos, e me sentir mais segura e profissional neles.
+</p>
 
 ## Experiência Profissional
 Comecei com meu primeiro estágio (ele sendo para minha formação do técnico de informática) em julho de 2019 na PRTi Digital, a empresa trabalhava com RPA (Robotic Proccess Automation) onde utilizava as tecnologias Automation Anywhere e UIPath para a programação de robôs para efetuar processos repetitivos e maçantes no lugar de seres humanos, salvando tempo para as empresas por eles serem mais rápidos e ter uma taxa de erro quase nula. Participei de três grandes entregas de robô para a empresa onde eu fui bem responsável pela codificação, sendo a que mais mostrou resultados com o treinamento e com a empresa não tendo muito programadores RPA ainda na época. Embora eu usasse bastante lógica de programação e as vezes programação em si (UIPath tinha campos em que você codificava em C#) eu ainda queria ter a experiencia com trabalhar em uma aplicação de verdade o que me levou ao meu segundo estágio.
@@ -49,11 +51,11 @@ No primeiro semestre os alunos decidem um próprio problema para resolver no dec
 Os dispensadores automáticos de ração existentes hoje em dia no mercado foram feitos para trabalhar com ração de cachorros e gatos principalmente, um trabalho no qual ele faz muito bem, mas peca quando é usado com outros tipos de ração tipo o de roedores que é normalmente encontrado no formato cilíndrico, que muitas vezes empaca no dispensador entre outros inconvenientes. O projeto virava oferecer uma opção de dispensador de ração automático feito para roedores, contendo inclusive a possibilidade de se programar quando a ração será dispensada.
 
 ### Solução
-Nossa solução foi fazer dois projetos, um com Arduino para cuidar da parte física do dispensador e o segundo um aplicativo mobile que cuidou da parte de agendamento prático dos dispensamentos de ração.
+Nosso grupo, que continha 6 elementos (comigo estando no time de desenvolvimento) teve a solução de fazer dois projetos, um com Arduino para cuidar da parte física do dispensador e o segundo um aplicativo mobile que cuidou da parte de agendamento prático dos dispensamentos de ração.
 
 #### Hardware
 
-No hardware foram utilizados:
+O hardware foi feito por uma coléga do grupo, nele foram utilizados:
 - Uma balança de carga 5kg
 
 Usado para calcular o peso de ração presente no dispensador, para mandar um aviso quando está vazio e precisa ser reenchido.
@@ -105,6 +107,8 @@ Segue imagem do projeto abaixo com alguns itens visíveis demarcados:
 
 #### Aplicativo Mobile
 
+O aplicativo mobile eu fiz boa parte da codificação, com um outro membro auxiliando em certas partes dele.
+
 Abaixo está a tela principal do aplicativo que será explicado de cima para baixo a seguir.
 
 <p align="center">
@@ -120,6 +124,33 @@ Abaixo está a tela principal do aplicativo que será explicado de cima para bai
 7. Botão para confirmar a adição do horário novo.
 8. Um texto adicionado para a etapa de desenvolvimento, informando onde o aparelho estava conectado, retirado na versão final.
 
+A seguir explicarei alguns códigos principais do projeto e que eu fui responsavel por programar eles.
+
+- Notificação do alarme.
+O usuario poderia agendar horarios nos quais a ração seria dispensada do dispensador, na mesma hora o aplicativo notificava o usuario.
+
+<p align="center">
+<img alt="código verificar alarme" src="./imagens/notificar alarme numerado.png" height="500">
+</p>
+
+1. É criado uma variavel que recebe qual horario é atualmente.
+2. Numa lista que contém os horarios agendados para o dia atual é verificado se a hora atual é um horario marcado.
+3. Caso sim entra-se em outra condição, esse alarme é semanal ou será apagado após o uso?
+Caso o horário é para ser apagado após o uso:
+4. O horario atual é removido da lista de horarios para se notificar do dia.
+5. Da lista total de horarios é removido o horario ja que ela não é para ser notificada de novo outro dia.
+6. É reatribuido ao componente lista que é apresentado ao usuario a nova lista de horarios, agora sem esse horario que ja foi concluido.
+7. É enviado ao bluetooth o texto 1 que sinaliza o arduino para dispensar ração.
+8. Uma notificação é enviada para o usuario informanaod que a ração foi dispensada.
+Caso o horário seja semanal:
+9. O horario atual é removido da lista de horarios para se notificar do dia.
+10. É enviado ao bluetooth o texto 1 que sinaliza o arduino para dispensar ração.
+11. Uma notificação é enviada para o usuario informanaod que a ração foi dispensada.
+
+
+
+
+//.. inserir imagem aqui do código e falar
 
 
 #### Tecnologias Utilizadas
@@ -146,7 +177,7 @@ Banco de dados utilizado.
 #### Hard Skills
 - Lógica de programação: Eu tinha uma lógica de construção já bem forte por conta do ensino técnico antes da faculdade, fui responsável pela lógica da agenda, programei grande parte dela.
 - Banco de dados: Já havia mexido com firebase antes no técnico, mas tive chance de poder aprender ele numa plataforma diferente da que estava acostumada e fiquei mais flexível com o uso dele.
-- Kodular: Aprendi uma nova ferramenta para desenvolvimento mobile, anteriormente só tinha tido a chance de experimentar Android Studio, sendo uma ferramenta simples estou segura que se abrisse novamente poderia programar um aplicativo novamente sem grandes problemas.
+- Kodular: Aprendi uma nova ferramenta para desenvolvimento mobile, anteriormente só tinha tido a chance de experimentar Android Studio, sendo uma ferramenta simples estou segura que se abrisse o kodular novamente poderia programar um aplicativo novamente sem grandes problemas.
 
 #### Soft Skills
 - Liderança: Eu tive a ideia para o projeto e fui atrás de integrantes, falei da minha ideia para eles e aceitaram se juntando ao grupo.
