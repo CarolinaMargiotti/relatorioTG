@@ -22,9 +22,11 @@
 ## Escolaridade
 <p align="justify">
 Em 2017 eu me matriculei no curso técnico de informática no colégio Univap Unidade Centro e foi lá onde tive meu primeiro contato com programação, durante os três anos aprendi desde o básico com variáveis, estruturas de repetição até POO e computação gráfica. La tive um aprendizado bem sólido com inúmeras listas para entendermos bem o básico e sou bem grata por isso. No último ano fiz uma apresentação do TCC em que eu codifiquei sozinha um site de bookmarks e anotações com tema planetário e fui aprovada com sucesso.
-
+</p>
+<p align="justify">
 Após me formar do colégio Univap em 2019 iniciei meus estudos na Fatec em 2020 para amadurecer mais meu conhecimento e aprender o que o técnico não teve tempo de me ensinar. Os primeiros semestres foram para mim uma revisão do que eu já tinha visto de programação na Univap mas pude experimentar também tecnologias e linguagens novas que não tinha visto ainda, bem como o modelo de projetos API, (Aprendizado Projeto Integrador) em que todo semestre nós em grupos trabalhamos em uma aplicação para resolver problemas de clientes reais (Empresas em associação com a Fatec), que me ajudou a desenvolver mais minhas soft skills e explorar os meios de organização de projeto e trabalho em grupo usados na área.
-
+</p>
+<p align="justify">
 No segundo ano de estudos eu pude começar a ver conteúdo novo de verdade e utilizar melhor de meu conhecimento antigo e novo para a realização de projetos, e me sentir mais segura e profissional neles.
 </p>
 
@@ -126,7 +128,7 @@ Abaixo está a tela principal do aplicativo que será explicado de cima para bai
 
 A seguir explicarei alguns códigos principais do projeto e que eu fui responsavel por programar eles.
 
-- Notificação do alarme.
+- Notificação do alarme. \
 O usuario poderia agendar horarios nos quais a ração seria dispensada do dispensador, na mesma hora o aplicativo notificava o usuario.
 
 <p align="center">
@@ -135,13 +137,13 @@ O usuario poderia agendar horarios nos quais a ração seria dispensada do dispe
 
 1. É criado uma variavel que recebe qual horario é atualmente.
 2. Numa lista que contém os horarios agendados para o dia atual é verificado se a hora atual é um horario marcado.
-3. Caso sim entra-se em outra condição, esse alarme é semanal ou será apagado após o uso?
+3. Caso sim entra-se em outra condição, esse alarme é semanal ou será apagado após o uso? \
 Caso o horário é para ser apagado após o uso:
 4. O horario atual é removido da lista de horarios para se notificar do dia.
 5. Da lista total de horarios é removido o horario ja que ela não é para ser notificada de novo outro dia.
 6. É reatribuido ao componente lista que é apresentado ao usuario a nova lista de horarios, agora sem esse horario que ja foi concluido.
 7. É enviado ao bluetooth o texto 1 que sinaliza o arduino para dispensar ração.
-8. Uma notificação é enviada para o usuario informanaod que a ração foi dispensada.
+8. Uma notificação é enviada para o usuario informanaod que a ração foi dispensada. \
 Caso o horário seja semanal:
 9. O horario atual é removido da lista de horarios para se notificar do dia.
 10. É enviado ao bluetooth o texto 1 que sinaliza o arduino para dispensar ração.
