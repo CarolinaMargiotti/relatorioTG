@@ -141,7 +141,7 @@ Abaixo está a tela principal do aplicativo que será explicado de cima para bai
 A seguir explicarei alguns códigos principais do projeto e que eu fui responsavel por programar eles.
 
 
-- Notificação do alarme.
+#### Notificação do alarme.
 
 O usuario poderia agendar horarios nos quais a ração seria dispensada do dispensador, na mesma hora o aplicativo notificava o usuario.
 
@@ -170,7 +170,7 @@ Caso o horário seja semanal:
 
 
 
-#### Tecnologias Utilizadas
+### Tecnologias Utilizadas
 - Kodular
 
 Para a programação mobile.
