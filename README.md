@@ -141,7 +141,8 @@ Abaixo está a tela principal do aplicativo que será explicado de cima para bai
 A seguir explicarei alguns códigos principais do projeto e que eu fui responsavel por programar eles.
 
 
-- Notificação do alarme. \
+- Notificação do alarme.
+
 O usuario poderia agendar horarios nos quais a ração seria dispensada do dispensador, na mesma hora o aplicativo notificava o usuario.
 
 <p align="center">
@@ -150,16 +151,18 @@ O usuario poderia agendar horarios nos quais a ração seria dispensada do dispe
 
 1. É criado uma variavel que recebe qual horario é atualmente.
 2. Numa lista que contém os horarios agendados para o dia atual é verificado se a hora atual é um horario marcado.
-3. Caso sim entra-se em outra condição, esse alarme é semanal ou será apagado após o uso? \
+3. Caso sim entra-se em outra condição, esse alarme é semanal ou será apagado após o uso?
 
 Caso o horário é para ser apagado após o uso:
+
 4. O horario atual é removido da lista de horarios para se notificar do dia.
 5. Da lista total de horarios é removido o horario ja que ela não é para ser notificada de novo outro dia.
 6. É reatribuido ao componente lista que é apresentado ao usuario a nova lista de horarios, agora sem esse horario que ja foi concluido.
 7. É enviado ao bluetooth o texto 1 que sinaliza o arduino para dispensar ração.
-8. Uma notificação é enviada para o usuario informanaod que a ração foi dispensada. \
+8. Uma notificação é enviada para o usuario informanaod que a ração foi dispensada.
 
 Caso o horário seja semanal:
+
 9. O horario atual é removido da lista de horarios para se notificar do dia.
 10. É enviado ao bluetooth o texto 1 que sinaliza o arduino para dispensar ração.
 11. Uma notificação é enviada para o usuario informanaod que a ração foi dispensada.
