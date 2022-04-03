@@ -64,7 +64,7 @@ Os dispensadores automáticos de ração existentes hoje em dia no mercado foram
 
 ### Solução
 <p align="justify">
-Nosso grupo, que continha 6 elementos (comigo estando no time de desenvolvimento) teve a solução de fazer dois projetos, um com Arduino para cuidar da parte física do dispensador e o segundo um aplicativo mobile que cuidou da parte de agendamento prático para notificar a hora de dispensar ração, customizada pelo usuario.
+Nosso grupo, que continha 6 elementos (comigo estando no time de desenvolvimento) teve a solução de fazer dois projetos, um com Arduino para cuidar da parte física do dispensador e o segundo um aplicativo mobile que cuidou da parte de agendamento prático para notificar a hora de dispensar ração, customizada pelo usuário.
 </p>
 
 #### Hardware
@@ -143,29 +143,29 @@ A seguir explicarei alguns códigos principais do projeto e que eu fui responsav
 
 #### Notificação do alarme
 
-O usuario poderia agendar horários nos quais a ração seria dispensada do dispensador, na mesma hora o aplicativo notificava o usuario.
+O usuário poderia agendar horários nos quais a ração seria dispensada do dispensador, na mesma hora o aplicativo notificava o usuário.
 
 <p align="center">
 <img alt="código verificar alarme" src="./imagens/notificar alarme numerado.png" height="500">
 </p>
 
 1. É criado uma variavel que recebe qual horário é atualmente.
-2. Numa lista que contém os horários agendados para o dia atual é verificado se a hora atual é um horário marcado.
-3. Caso sim entra-se em outra condição, esse alarme é semanal ou será apagado após o uso?
+2. Numa lista que contém os horários agendados para o dia atual é verificado se a hora atual é um horário marcado para a dispensão da ração.
+3. Caso sim entra-se em outra condição na qual é verificado se o alarme é semanal ou é de uso único.
 
-Caso o horário é para ser apagado após o uso:
+Caso o horário é de uso único:
 
 4. O horário atual é removido da lista de horários para se notificar do dia.
-5. Da lista total de horários é removido o horário ja que ela não é para ser notificada de novo outro dia.
-6. É reatribuido ao componente lista que é apresentado ao usuario a nova lista de horários, agora sem esse horário que ja foi concluido.
+5. Da lista total de horários é removido o horário.
+6. É reatribuido ao componente lista que é apresentado ao usuário a nova lista de horários, agora sem esse horário que ja foi concluido e não deve existir mais.
 7. É enviado ao bluetooth o texto 1 que sinaliza o arduino para dispensar ração.
-8. Uma notificação é enviada para o usuario informanaod que a ração foi dispensada.
+8. Uma notificação é enviada para o usuário informando que a ração foi dispensada.
 
 Caso o horário seja semanal:
 
 9. O horário atual é removido da lista de horários para se notificar do dia.
 10. É enviado ao bluetooth o texto 1 que sinaliza o arduino para dispensar ração.
-11. Uma notificação é enviada para o usuario informanaod que a ração foi dispensada.
+11. Uma notificação é enviada para o usuário informando que a ração foi dispensada.
 
 #### Salvando os horários no banco
 Aqui segue o código utilizado para salvar um horário para o dispensar da ração.
@@ -176,18 +176,18 @@ Aqui segue o código utilizado para salvar um horário para o dispensar da raç�
 
 1. Primeiro se é verificado se o horário é semanal, se não tem valor na lista de dias da semana escolhidos assumi-se que não.
 
-Caso não:
+Caso o horário seja de uso único:
 
-2. A hora é adicionada na lista demarcada para os alarmes que vão ser tocados só uma vez, sendo ela no dia em que foram criadas.
+2. A hora é adicionada na lista demarcada para os alarmes de uso único.
 3. Da mesma forma é adicionado na lista de horários á serem alertados hoje o horário escolhido.
 
-Caso sim:
+Caso o horário deva se repetir:
 
-4. Condição para se verificar se o horário criado hoje acontecesse de cair numa data que é para ser acionado.
+4. Condição para se verificar se o horário criado hoje acontece de ser numa data que é para ser acionado.
 5. Caso sim ele é adicionado na lista dos horários para serem acionados no dia.
 6. Para cada dia da semana que foi selecionada para o horário acionar (Segunda, Quarta, Quinta por exemplo) o alarme, as ações 7 e 8 serão feitas.
-7. Pede-se para o banco de dados guardar o horário no campo especificado na tag, sendo ele dentro da agenda do usuario logado e dentro da lista do dia da semana.
-8. Um id que diferencia os horários é atribuido uma unidade a mais para o próximo valor não o substituir.
+7. Pede-se para o banco de dados guardar o horário no campo especificado na tag, sendo ele dentro da agenda do usuário logado e dentro da lista do dia da semana na agenda dele.
+8. Um identificador que diferencia os horários é atribuido uma unidade a mais para o próximo valor não o substituir.
 
 
 
