@@ -31,10 +31,12 @@ No segundo ano de estudos eu pude começar a ver conteúdo novo de verdade e uti
 </p>
 
 ## Experiência Profissional
+<p align="justify">
 Comecei com meu primeiro estágio (ele sendo para minha formação do técnico de informática) em julho de 2019 na PRTi Digital, a empresa trabalhava com RPA (Robotic Proccess Automation) onde utilizava as tecnologias Automation Anywhere e UIPath para a programação de robôs para efetuar processos repetitivos e maçantes no lugar de seres humanos, salvando tempo para as empresas por eles serem mais rápidos e ter uma taxa de erro quase nula. Participei de três grandes entregas de robô para a empresa onde eu fui bem responsável pela codificação, sendo a que mais mostrou resultados com o treinamento e com a empresa não tendo muito programadores RPA ainda na época. Embora eu usasse bastante lógica de programação e as vezes programação em si (UIPath tinha campos em que você codificava em C#) eu ainda queria ter a experiencia com trabalhar em uma aplicação de verdade o que me levou ao meu segundo estágio.
-
+</p>
+<p align="justify">
 Em 2021 sai da PRTi Digital eu comecei meu estágio na SOLUCX (agora com o estágio valendo para a faculdade), uma empresa que trabalha com pesquisas de satisfação de serviços para inúmeras empresas pelo brasil. Trabalhando lá já consegui níveis altos de experiencia e conhecimento novo, mexi com ferramentas e frameworks novos que não tinha visto nada parecido em sala ainda, experienciei SCRUM como ele realmente é para ser feito, aprendi sobre testes unitários e outros times envolvidos no desenvolvimento de uma aplicação como o de Quality Assurance que nunca ouvirá até o momento. Ainda estou lá até o momento e ainda estou aprendendo muito e tendo oportunidades de me desafiar.
-
+</p>
 # Meus Projetos
 
 ## Em 2020-1 (LittlePet) 1º Semestre
@@ -43,17 +45,27 @@ Em 2021 sai da PRTi Digital eu comecei meu estágio na SOLUCX (agora com o está
 </p>
 
 ### Empresa
+<p align="justify">
 As Fatecs são instituições importantes para o Brasil em ensino superior, sendo pioneiras na graduação de tecnólogos e localizadas em vÁrias cidades pelo estado de São Paulo. A unidade de São José dos Campos oferece um grande número de cursos para graduação de nível superior neles incluindo analise e desenvolvimento de sistemas, Banco de dados, manutenção de aeronaves entre outros.
+</p>
 
+<p align="justify">
 Em 2020 foi iniciado o projeto integrador na Fatec, em que a faculdade fazia parceria com empresas para realizar um projeto em conjunto, os alunos recebiam o problema das empresas e elaboram uma solução que é apresentada em sprints e no fim há uma feira de soluções com cada grupo de alunos apresentando seus projetos.
+</p>
 
+<p align="justify">
 No primeiro semestre os alunos decidem um próprio problema para resolver no decorrer do semestre.
+</p>
 
 ### Problema
+<p align="justify">
 Os dispensadores automáticos de ração existentes hoje em dia no mercado foram feitos para trabalhar com ração de cachorros e gatos principalmente, um trabalho no qual ele faz muito bem, mas peca quando é usado com outros tipos de ração tipo o de roedores que é normalmente encontrado no formato cilíndrico, que muitas vezes empaca no dispensador entre outros inconvenientes. O projeto virava oferecer uma opção de dispensador de ração automático feito para roedores, contendo inclusive a possibilidade de se programar quando a ração será dispensada.
+</p>
 
 ### Solução
+<p align="justify">
 Nosso grupo, que continha 6 elementos (comigo estando no time de desenvolvimento) teve a solução de fazer dois projetos, um com Arduino para cuidar da parte física do dispensador e o segundo um aplicativo mobile que cuidou da parte de agendamento prático dos dispensamentos de ração.
+</p>
 
 #### Hardware
 
@@ -128,6 +140,7 @@ Abaixo está a tela principal do aplicativo que será explicado de cima para bai
 
 A seguir explicarei alguns códigos principais do projeto e que eu fui responsavel por programar eles.
 
+
 - Notificação do alarme. \
 O usuario poderia agendar horarios nos quais a ração seria dispensada do dispensador, na mesma hora o aplicativo notificava o usuario.
 
@@ -138,21 +151,20 @@ O usuario poderia agendar horarios nos quais a ração seria dispensada do dispe
 1. É criado uma variavel que recebe qual horario é atualmente.
 2. Numa lista que contém os horarios agendados para o dia atual é verificado se a hora atual é um horario marcado.
 3. Caso sim entra-se em outra condição, esse alarme é semanal ou será apagado após o uso? \
+
 Caso o horário é para ser apagado após o uso:
 4. O horario atual é removido da lista de horarios para se notificar do dia.
 5. Da lista total de horarios é removido o horario ja que ela não é para ser notificada de novo outro dia.
 6. É reatribuido ao componente lista que é apresentado ao usuario a nova lista de horarios, agora sem esse horario que ja foi concluido.
 7. É enviado ao bluetooth o texto 1 que sinaliza o arduino para dispensar ração.
 8. Uma notificação é enviada para o usuario informanaod que a ração foi dispensada. \
+
 Caso o horário seja semanal:
 9. O horario atual é removido da lista de horarios para se notificar do dia.
 10. É enviado ao bluetooth o texto 1 que sinaliza o arduino para dispensar ração.
 11. Uma notificação é enviada para o usuario informanaod que a ração foi dispensada.
 
 
-
-
-//.. inserir imagem aqui do código e falar
 
 
 #### Tecnologias Utilizadas
