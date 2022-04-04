@@ -17,7 +17,7 @@
             - [Soft Skills](#soft-skills)
 
 # Introdução
-<img alt="foto minha" src="./imagens/eu.jpg">
+<img alt="foto minha" src="./imagens/eu.jpg" height="350">
 
 
 ## Escolaridade
