@@ -12,8 +12,10 @@
 
 # Em 2020-2 (Minha Jornada) 2º Semestre
 
-
 ## Empresa
+<p align="justify">
+A IACIT foi fundada em 1986 no Brasil, possui sede em São José dos Campos e é um importante centro para a indústria aeroespacial do Brasil, com certificação dada pelo Ministério da Defesa de Empresa de estratégia de Defesa. Ela desenvolve projetos e sistemas para o auxílio do controle e do tráfego aéreo e marítmo, defesa e segurança publica, meteorologia, pesquisa e telemetria.
+</p>
 
 ## Problema
 
