@@ -1,7 +1,7 @@
 # Carolina Margiotti de Abreu
 
 # Tabela de conteúdo
-   - [Em 2020-1 (LittlePet) 1º Semestre](#em-2020-1-littlepet-1º-semestre)
+   - [Em 2020-2 (Minha Jornada) 2º Semestre](#em-2020-2-minhajornada-2º-semestre)
         - [Empresa](#empresa)
         - [Problema](#problema)
         - [Solução](#solução)
@@ -10,7 +10,7 @@
             - [Hard Skills](#hard-skills)
             - [Soft Skills](#soft-skills)
 
-# Em 2020-1 (LittlePet) 1º Semestre
+# Em 2020-2 (Minha Jornada) 2º Semestre
 
 
 ## Empresa
