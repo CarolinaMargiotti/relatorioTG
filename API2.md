@@ -28,6 +28,25 @@ Grande parte do transporte de mercadorias no Brasil é feito por caminhões, iss
 O Minha Jornada é um software que oferece registro da jornada de trabalho do motorista que transporta entregas, ajustando-se ao acordo coletivo sindical do usuário, além de permitir o controle e visualização dos registros pela empresa de logística, assim como permite coletar dados para a folha de pagamento.
 </p>
 
+Nesse projeto a carga de atividades foi melhor distribuida comparado ao primeiro projeto integrador, minhas contribuições para a solução mais significativas foram as abaixo.
+
+### Modelo conceitual e lógico.
+Eu desenhei os dois modelos para ajudar no desenvolvimento do projeto.
+
+### CRUD de veiculos
+<p align="justify">
+Criei a pagina de veiculos, nele há uma tabela que voce pode visualizar a tabela de veiculos com os dados deles de ID, chassi, ID de integração, marca do rastreador e versão do rastreador. Na tabela voce pode além de visualizar, também pode criar um veiculo, editar um veiculo especifico ou deletar um veiculo, com cada uma dessas opções indo para uma pagina diferente que eu também programei.
+</p>
+
+### Alteração de senha
+Uma tela de alteração de senha foi criada por mim junto de um endpoint para efetuar isso no back-end.
+
+### A pagina de visualizar o banco de horas de um caminhoneiro especifico.
+<p align="justify">
+Programei a tela com a tabela para visualizar o banco de horas dos caminhoneiros, criei um objeto para jornada possuindo além do id da jornada, o id do caminhoneiro, data dessa jornada em especifico, o tempo de almoço, horas totais de serviço, e horas de descanso. Depois de criar o objeto fiz o endpoint que pega eles do banco para a listagem.
+</p>
+Além disso adicionei ao CRUD de caminhoneiros a opção de ir visualizar o banco de horas do clicado em especifico, que redireciona para essa pagina.
+
 ## Tecnologias Utilizadas
 - Java \
 Usado tanto para Back e Front-End.
@@ -45,6 +64,8 @@ Banco de dados relacional.
 Um editor gráfico de vetor e prototipagem de projetos de design.
 
 ## Contribuições Pessoais
+### Principais conhecimentos
+
 ### Hard Skills
 
 ### Soft Skills
