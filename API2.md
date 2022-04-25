@@ -11,6 +11,7 @@
             - [Soft Skills](#soft-skills)
 
 # Em 2020-2 (Minha Jornada) 2º Semestre
+[Minha Jornada](https://github.com/CarolinaMargiotti/Minha-Jornada)
 
 ## Empresa
 <p align="justify">
@@ -18,10 +19,23 @@ A IACIT foi fundada em 1986 no Brasil, possui sede em São José dos Campos e é
 </p>
 
 ## Problema
+<p align="justify">
+Grande parte do transporte de mercadorias no Brasil é feito por caminhões, isso põem muita pressão em empresas para as entregas serem entregas corretamente. Para garantir o maior controle possivél a empresa quer ter as informações de registro das jornadaa de trabalho, repousos, horários de alimentação e horas extra dos seus caminhoneiros na logistica.
+</p>
 
 ## Solução
+<p align="justify">
+O Minha Jornada é um software que oferece registro da jornada de trabalho do motorista que transporta entregas, ajustando-se ao acordo coletivo sindical do usuário, além de permitir o controle e visualização dos registros pela empresa de logística, assim como permite coletar dados para a folha de pagamento.
+</p>
 
 ## Tecnologias Utilizadas
+- Java
+   - Spring
+   - Hibernate
+- Html
+- CSS
+- Postgres
+- Figma
 
 ## Contribuições Pessoais
 ### Hard Skills
