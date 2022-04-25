@@ -29,13 +29,20 @@ O Minha Jornada é um software que oferece registro da jornada de trabalho do mo
 </p>
 
 ## Tecnologias Utilizadas
-- Java
-   - Spring
-   - Hibernate
-- Html
-- CSS
-- Postgres
-- Figma
+- Java \
+Usado tanto para Back e Front-End.
+   - Spring \
+   Um framework Java para auxiliar desenvolvimento de aplicações.
+   - Hibernate \
+   Framework de persistencia de dados usado no Java para implementar o conceito de mapeamento objeto-relacional, funcionando em conjunto do banco de dados.
+- HTML \
+Define a estrutura do conteúdo da web da forma mais basica.
+- CSS \
+Adiciona estilo á uma pagina web.
+- Postgres \
+Banco de dados relacional.
+- Figma \
+Um editor gráfico de vetor e prototipagem de projetos de design.
 
 ## Contribuições Pessoais
 ### Hard Skills
