@@ -78,14 +78,35 @@ Um editor gráfico de vetor e prototipagem de projetos de design.
 ## Contribuições Pessoais
 
 ### Hard Skills
-- Java, Spring, Hibernate: Desenvolvi mais o conhecimento em Java que ja havia adquirido no ensino técnico, sendo apresentada á um framework java e framework de persistencia de dados pela primeira vez, não dominei completamente essas tecnologias mas tive um conhecimento mais sólido de como funcionam que me ajudaram em projetos com essas tecnologias que vieram no futuro em outras matérias.
-- Postgres: Não havia tido contato com postgres antes, foi minha primeira vez e agora consigo usa-lo com relativa facilidade.
-- Figma: Também me foi apresentado Figma pela primeira vez, aprendi facilmente e me lembro sem dificuldade com o que aprendi, agora no quinto semestre tive que auxiliar no figma do projeto integrador e pude trabalhar sem recorrer a tutoriais na internet ou outros conteudos para me lembrar de como funcina.
+- Java, Spring, Hibernate: 
+<p align="justify">
+Desenvolvi mais o conhecimento em Java que ja havia adquirido no ensino técnico, sendo apresentada á um framework java e framework de persistencia de dados pela primeira vez, não dominei completamente essas tecnologias mas tive um conhecimento mais sólido de como funcionam que me ajudaram em projetos com essas tecnologias que vieram no futuro em outras matérias.
+</p>
+
+- Postgres: 
+<p align="justify">
+Não havia tido contato com postgres antes, foi minha primeira vez e agora consigo usa-lo com relativa facilidade.
+</p>
+
+- Figma: 
+<p align="justify">   
+ Também me foi apresentado Figma pela primeira vez, aprendi facilmente e me lembro sem dificuldade com o que aprendi, agora no quinto semestre tive que auxiliar no figma do projeto integrador e pude trabalhar sem recorrer a tutoriais na internet ou outros conteudos para me lembrar de como funcina.
+</p>
 
 ### Soft Skills
-- Flexibilidade no trabalho: Ajudei com o que precisava ser feito na equipe, mesmo com coisas que eu não estava confiante que conseguiria fazer inicialmente (os modelos por exemplo).
-- Resiliencia: Troquei mensagens varias vezes com a professora de banco de dados para garantir que os modelos estavam corretos, pedindo a opinião dela inumeras vezes e tirando duvidas.
-- Honestidade: Nos gargalos que encontrei na programação admiti minhas dificuldades á equipe e recebi ajuda de acordo, podendo terminar minhas tarefas com uma maior agilidade.
+- Flexibilidade no trabalho: 
+<p align="justify">
+Ajudei com o que precisava ser feito na equipe, mesmo com coisas que eu não estava confiante que conseguiria fazer inicialmente (os modelos por exemplo).
+</p>
 
+- Resiliencia: 
+<p align="justify">
+Troquei mensagens varias vezes com a professora de banco de dados para garantir que os modelos estavam corretos, pedindo a opinião dela inumeras vezes e tirando duvidas.
+</p>
+
+- Honestidade: 
+<p align="justify">
+Nos gargalos que encontrei na programação admiti minhas dificuldades á equipe e recebi ajuda de acordo, podendo terminar minhas tarefas com uma maior agilidade.
+</p>
 
 
