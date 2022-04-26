@@ -31,7 +31,7 @@ Grande parte do transporte de mercadorias no Brasil é feito por caminhões, iss
 O Minha Jornada é um software que oferece registro da jornada de trabalho do motorista que transporta entregas, ajustando-se ao acordo coletivo sindical do usuário, além de permitir o controle e visualização dos registros pela empresa de logística, assim como permite coletar dados para a folha de pagamento.
 </p>
 
-Nesse projeto a carga de atividades foi melhor distribuida comparado ao primeiro projeto integrador, minhas contribuições para a solução mais significativas foram as abaixo.
+Nesse projeto a carga de atividades foi melhor distribuída comparado ao primeiro projeto integrador, minhas contribuições para a solução mais significativas foram as abaixo.
 
 ### Modelo conceitual e lógico.
 Eu desenhei os dois modelos para ajudar no desenvolvimento do projeto.
@@ -47,7 +47,7 @@ Eu desenhei os dois modelos para ajudar no desenvolvimento do projeto.
 
 ### CRUD de veiculos
 <p align="justify">
-Criei a pagina de veiculos, nele há uma tabela que voce pode visualizar a tabela de veiculos com os dados deles de ID, chassi, ID de integração, marca do rastreador e versão do rastreador. Na tabela voce pode além de visualizar, também pode criar um veiculo, editar um veiculo especifico ou deletar um veiculo, com cada uma dessas opções indo para uma pagina diferente que eu também programei.
+Criei a página de veículos, nele há uma tabela que você pode visualizar a lista de veículos com os dados deles de ID, chassi, ID de integração, marca do rastreador e versão do rastreador. Na tabela você pode além de visualizar, também pode criar um veículo, editar um veículo especifico ou deletar um veículo, com cada uma dessas opções indo para uma página diferente que eu também criei.
 </p>
 
 ### Alteração de senha
@@ -65,9 +65,9 @@ Usado tanto para Back e Front-End.
    - Spring \
    Um framework Java para auxiliar desenvolvimento de aplicações.
    - Hibernate \
-   Framework de persistencia de dados usado no Java para implementar o conceito de mapeamento objeto-relacional, funcionando em conjunto do banco de dados.
+   Framework de persistência de dados usado no Java para implementar o conceito de mapeamento objeto-relacional, funcionando em conjunto do banco de dados.
 - HTML \
-Define a estrutura do conteúdo da web da forma mais basica.
+Define a estrutura do conteúdo da web da forma mais básica.
 - CSS \
 Adiciona estilo á uma pagina web.
 - Postgres \
@@ -80,17 +80,17 @@ Um editor gráfico de vetor e prototipagem de projetos de design.
 ### Hard Skills
 - Java, Spring, Hibernate: 
 <p align="justify">
-Desenvolvi mais o conhecimento em Java que ja havia adquirido no ensino técnico, sendo apresentada á um framework java e framework de persistencia de dados pela primeira vez, não dominei completamente essas tecnologias mas tive um conhecimento mais sólido de como funcionam que me ajudaram em projetos com essas tecnologias que vieram no futuro em outras matérias.
+Desenvolvi mais o conhecimento em Java que já havia adquirido no ensino técnico, sendo apresentada a um framework java e framework de persistência de dados pela primeira vez, não dominei completamente essas tecnologias, mas tive um conhecimento mais sólido de como funcionam que me ajudaram em projetos com essas tecnologias que vieram no futuro em outras matérias.
 </p>
 
 - Postgres: 
 <p align="justify">
-Não havia tido contato com postgres antes, foi minha primeira vez e agora consigo usa-lo com relativa facilidade.
+Não havia tido contato com postgres antes, foi minha primeira vez e agora consigo usá-lo com relativa facilidade.
 </p>
 
 - Figma: 
 <p align="justify">   
- Também me foi apresentado Figma pela primeira vez, aprendi facilmente e me lembro sem dificuldade com o que aprendi, agora no quinto semestre tive que auxiliar no figma do projeto integrador e pude trabalhar sem recorrer a tutoriais na internet ou outros conteudos para me lembrar de como funcina.
+ Também me foi apresentado Figma pela primeira vez, aprendi facilmente e me lembro sem dificuldade com o que aprendi, agora no quinto semestre tive que auxiliar no figma do projeto integrador e pude trabalhar sem recorrer a tutoriais na internet ou outros conteúdos para me lembrar de como funciona.
 </p>
 
 ### Soft Skills
@@ -101,12 +101,12 @@ Ajudei com o que precisava ser feito na equipe, mesmo com coisas que eu não est
 
 - Resiliencia: 
 <p align="justify">
-Troquei mensagens varias vezes com a professora de banco de dados para garantir que os modelos estavam corretos, pedindo a opinião dela inumeras vezes e tirando duvidas.
+Troquei mensagens várias vezes com a professora de banco de dados para garantir que os modelos estavam corretos, pedindo a opinião dela inúmeras vezes e tirando dúvidas.
 </p>
 
 - Honestidade: 
 <p align="justify">
-Nos gargalos que encontrei na programação admiti minhas dificuldades á equipe e recebi ajuda de acordo, podendo terminar minhas tarefas com uma maior agilidade.
+Nos gargalos que encontrei na programação admiti minhas dificuldades a equipe e recebi ajuda de acordo, podendo terminar minhas tarefas com uma maior agilidade.
 </p>
 
 
