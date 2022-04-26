@@ -9,7 +9,6 @@
     - [Em 2020-2 (Minha Jornada) 2º Semestre](#em-2020-2-minha-jornada-2º-semestre)
     - [Em 2021-1 (Learning Management System) 3º Semestre](#em-2021-1-learning-management-system-3º-semestre)
  3. [Principais Conhecimentos](#principais-conhecimentos)
-    - [Front-End](#front-end)
 
 # Introdução
 <img alt="foto minha" src="./imagens/eu.jpg" height="350">
@@ -47,40 +46,38 @@ Segue abaixo os links para os arquivos correspondentes.
 - [Learning Management System](API3.md)
 
 # Principais Conhecimentos
-### Front-End
-Uma área que atuei bastante e procuro me desenvolver mais é Front-End, especialmente para Web.
 
 - HTML
     <p>
-        Estudo desde o técnico de informatica, é uma tecnologia bem ampla e estou sempre descobrindo tags e atributos novos mas consigo trabalhar com facilidade, as coisas novas que estou aprendendo agora são interessantes mas não necessarias e não agregam grande valor.
+       Uma linguagem de marcação de hipertexto usada para web. Estudo desde o técnico de informatica, consigo trabalhar com tranquilidade.
     </p>
 - CSS
         <p>
-        Também vejo desde o técnico, ja fiz outros cursos pela internet além disso. Sei trabalhar com o basico-intermediario, procuro me aprofundar mais á frente no avançado, tipo animações e como desenhar elementos com poligonos mais complexos e coisas do tipo.
+        Responsavél por adicionar estilo á uma pagina web. Também vejo desde o técnico, ja fiz outros cursos pela internet além disso. Sei trabalhar com o basico-intermediario, procuro me aprofundar mais á frente no avançado, tipo animações e como desenhar elementos com poligonos mais complexos e coisas do tipo.
     </p>
 - Javascript
         <p>
-        Outro velho conhecido meu da época do ensino técnico, consigo trabalhar confortavelmente sem problemas.
+        Uma linguagem de programação que foi por muito templo exclusivo para web mas agora se expandiu para além. Outro velho conhecido da época do ensino técnico, consigo trabalhar confortavelmente.
     </p>
 - Tailwind
     <p>
-        Um outro framework de CSS com que tive contato no quarto semestre da faculdade, foi breve mas deixou um grande impacto, aprendi bastante no tempo do projeto integrador que usamos ele e quero ver mais dele mais á frente, mas acredito ja ser capaz de trabalhar confortavelmente.
+        Um framework de CSS. Tive o primeiro contato no quarto semestre da faculdade, foi breve mas deixou um grande impacto, aprendi bastante no tempo do projeto integrador que usamos ele e quero ver mais dele mais á frente, mas acredito ja ser capaz de trabalhar confortavelmente.
     </p>
 - React
     <p>
-        Aprendi sobre ele no quarto semestre e estou vendo ele de novo agora no quinto semestre, sei como funciona e como trabalhar com ele no nivel básico, precisaria estudar pouco para chegar a nivel intermediario.
+        Framework para javascript. Aprendi sobre ele no quarto semestre e estou vendo ele de novo agora no quinto semestre, sei como funciona e como trabalhar com ele no nivel básico, precisaria estudar pouco para chegar a nivel intermediario.
     </p>
 - Typescript
         <p>
-        Tive meu primeiro contato no estágio na SOLUCX, fiz um curso pequeno sobre e o resto aprendi com a experiencia do dia a dia no serviço. Consigo trabalhar confortavelmente.
+        Superset para javascript. Tive meu primeiro contato no estágio na SOLUCX, fiz um curso pequeno sobre e o resto aprendi com a experiencia do dia a dia no serviço. Consigo trabalhar confortavelmente.
     </p>
 - Bootstrap
     <p>
-        Outro que conheci no periodo de meu estágio, embora tive alguns contatos breves com ele anos antes, foi a primeira vez que realmente mergulhei nele e aprendi como funcionava. Consigo trabalhar confortavelmente mas também pretendo me aprofundar mais no futuro próximo.
+        Framework CSS, embora tive alguns contatos breves com ele anos antes, foi a primeira vez que realmente mergulhei nele e aprendi como funcionava. Consigo trabalhar confortavelmente mas também pretendo me aprofundar mais no futuro próximo.
     <p>
 - Vue
     <p>
-        O ultimo que aprendi por conta do estágio na SOLUCX. Bem poderoso e intuitivo, consigo fazer o básico-intermediario nele mas me falta conhecimento avançado para dominar verdadeiramente.
+        Um framweork de javascript que aprendi por conta do estágio. Bem poderoso e intuitivo, consigo fazer o básico-intermediario nele mas me falta conhecimento avançado para dominar verdadeiramente.
     </p>
 
     
