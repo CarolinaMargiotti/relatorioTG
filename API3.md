@@ -52,6 +52,10 @@ Fora isso minhas contribuições foram com comentarios e sugestões em reuniões
 ## Contribuições Pessoais
 
 ### Hard Skills
+- Ruby e Ruby on rails
+<p align="justify">
+Infelizmente não consegui adquirir muita experiencia por meio do projeto nessa linguagem e framework mas completei um curso introdutório para as duas então posso dizer que fui introduzida á ela.
+</p>
 
 ### Soft Skills
 - Resiliência:
