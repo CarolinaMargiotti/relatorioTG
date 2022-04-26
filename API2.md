@@ -13,7 +13,7 @@
 # Em 2020-2 (Minha Jornada) 2º Semestre
 [Minha Jornada](https://github.com/CarolinaMargiotti/Minha-Jornada)
 <p align="center">
-<img alt="Logo minha jornada" src="./imagens/api2/Capa.gif" height="100">
+<img alt="Logo minha jornada" src="./imagens/api2/Capa.gif" height="250">
 </p>
 
 ## Empresa
@@ -37,12 +37,12 @@ Nesse projeto a carga de atividades foi melhor distribuida comparado ao primeiro
 Eu desenhei os dois modelos para ajudar no desenvolvimento do projeto.
 #### Modelo Conceitual
 <p align="center">
-<img alt="modelo conceitual" src="./imagens/api2/Modelo Conceitual.png" height="100">
+<img alt="modelo conceitual" src="./imagens/api2/Modelo Conceitual.png" height="450">
 </p>
 
 #### Modelo Lógico
 <p align="center">
-<img alt="modelo lógico" src="./imagens/api2/Modelo Lógico.png" height="100">
+<img alt="modelo lógico" src="./imagens/api2/Modelo Lógico.png" height="450">
 </p>
 
 ### CRUD de veiculos
@@ -79,6 +79,9 @@ Um editor gráfico de vetor e prototipagem de projetos de design.
 ### Principais conhecimentos
 
 ### Hard Skills
+- Java, Spring, Hibernate: Desenvolvi mais o conhecimento em Java que ja havia adquirido no ensino técnico, sendo apresentada á um framework java e framework de persistencia de dados pela primeira vez, não dominei completamente essas tecnologias mas tive um conhecimento mais sólido de como funcionam que me ajudaram em projetos com essas tecnologias que vieram no futuro em outras matérias.
+- Postgres: Não havia tido contato com postgres antes, foi minha primeira vez e agora consigo usa-lo com relativa facilidade.
+- Figma: Também me foi apresentado Figma pela primeira vez, aprendi facilmente e me lembro sem dificuldade com o que aprendi, agora no quinto semestre tive que auxiliar no figma do projeto integrador e pude trabalhar sem recorrer a tutoriais na internet ou outros conteudos para me lembrar de como funcina.
 
 ### Soft Skills
 
