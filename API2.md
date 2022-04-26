@@ -11,7 +11,7 @@
             - [Soft Skills](#soft-skills)
 
 # Em 2020-2 (Minha Jornada) 2º Semestre
-[Minha Jornada](https://github.com/CarolinaMargiotti/Minha-Jornada)
+[Github Minha Jornada](https://github.com/CarolinaMargiotti/Minha-Jornada)
 <p align="center">
 <img alt="Logo minha jornada" src="./imagens/api2/Capa.gif" height="250">
 </p>
@@ -84,7 +84,9 @@ Um editor gráfico de vetor e prototipagem de projetos de design.
 - Figma: Também me foi apresentado Figma pela primeira vez, aprendi facilmente e me lembro sem dificuldade com o que aprendi, agora no quinto semestre tive que auxiliar no figma do projeto integrador e pude trabalhar sem recorrer a tutoriais na internet ou outros conteudos para me lembrar de como funcina.
 
 ### Soft Skills
-
+- Flexibilidade no trabalho: Ajudei com o que precisava ser feito na equipe, mesmo com coisas que eu não estava confiante que conseguiria fazer inicialmente (os modelos por exemplo).
+- Resiliencia: Troquei mensagens varias vezes com a professora de banco de dados para garantir que os modelos estavam corretos, pedindo a opinião dela inumeras vezes e tirando duvidas.
+- Honestidade: Nos gargalos que encontrei na programação admiti minhas dificuldades á equipe e recebi ajuda de acordo, podendo terminar minhas tarefas com uma maior agilidade.
 
 
 
