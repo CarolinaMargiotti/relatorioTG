@@ -59,6 +59,18 @@ Programei a tela com a tabela para visualizar o banco de horas dos caminhoneiros
 </p>
 Além disso adicionei ao CRUD de caminhoneiros a opção de ir visualizar o banco de horas do clicado em especifico, que redireciona para essa pagina.
 
+<p align="center">
+<img alt="tela de visualizar horas numeradas" src="./imagens/api2/tela visualizar horas numerado.png" height="450">
+</p>
+
+1. Nome do caminhoneiro que foi selecionado
+2. Input para filtrar datas que aparecem na tabela.
+3. ID da jornada.
+4. Horas totais de serviço.
+5. Minutos totais de almoço.
+6. Minutos totais de descanso.
+
+
 ## Tecnologias Utilizadas
 - Java \
 Usado tanto para Back e Front-End.
@@ -78,33 +90,33 @@ Um editor gráfico de vetor e prototipagem de projetos de design.
 ## Contribuições Pessoais
 
 ### Hard Skills
-- Java, Spring, Hibernate: 
+- Java, Spring, Hibernate:
 <p align="justify">
 Desenvolvi mais o conhecimento em Java que já havia adquirido no ensino técnico, sendo apresentada a um framework java e framework de persistência de dados pela primeira vez, não dominei completamente essas tecnologias, mas tive um conhecimento mais sólido de como funcionam que me ajudaram em projetos com essas tecnologias que vieram no futuro em outras matérias.
 </p>
 
-- Postgres: 
+- Postgres:
 <p align="justify">
 Não havia tido contato com postgres antes, foi minha primeira vez e agora consigo usá-lo com relativa facilidade.
 </p>
 
-- Figma: 
-<p align="justify">   
+- Figma:
+<p align="justify">
  Também me foi apresentado Figma pela primeira vez, aprendi facilmente e me lembro sem dificuldade com o que aprendi, agora no quinto semestre tive que auxiliar no figma do projeto integrador e pude trabalhar sem recorrer a tutoriais na internet ou outros conteúdos para me lembrar de como funciona.
 </p>
 
 ### Soft Skills
-- Flexibilidade no trabalho: 
+- Flexibilidade no trabalho:
 <p align="justify">
 Ajudei com o que precisava ser feito na equipe, mesmo com coisas que eu não estava confiante que conseguiria fazer inicialmente (os modelos por exemplo).
 </p>
 
-- Resiliencia: 
+- Resiliencia:
 <p align="justify">
 Troquei mensagens várias vezes com a professora de banco de dados para garantir que os modelos estavam corretos, pedindo a opinião dela inúmeras vezes e tirando dúvidas.
 </p>
 
-- Honestidade: 
+- Honestidade:
 <p align="justify">
 Nos gargalos que encontrei na programação admiti minhas dificuldades a equipe e recebi ajuda de acordo, podendo terminar minhas tarefas com uma maior agilidade.
 </p>
