@@ -44,7 +44,7 @@ Segue abaixo os links para os arquivos correspondentes.
 
 # Principais Conhecimentos
 ### Front-End
-Uma área que atuei bastante e procuro me desenvolver mais é em Front-End, especialmente para Web.
+Uma área que atuei bastante e procuro me desenvolver mais é Front-End, especialmente para Web.
 
 - HTML
     <p>
