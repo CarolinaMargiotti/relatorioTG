@@ -76,7 +76,6 @@ Banco de dados relacional.
 Um editor gráfico de vetor e prototipagem de projetos de design.
 
 ## Contribuições Pessoais
-### Principais conhecimentos
 
 ### Hard Skills
 - Java, Spring, Hibernate: Desenvolvi mais o conhecimento em Java que ja havia adquirido no ensino técnico, sendo apresentada á um framework java e framework de persistencia de dados pela primeira vez, não dominei completamente essas tecnologias mas tive um conhecimento mais sólido de como funcionam que me ajudaram em projetos com essas tecnologias que vieram no futuro em outras matérias.
