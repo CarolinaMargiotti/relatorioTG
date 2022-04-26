@@ -12,15 +12,18 @@
 
 # Em 2020-2 (Minha Jornada) 2º Semestre
 [Minha Jornada](https://github.com/CarolinaMargiotti/Minha-Jornada)
+<p align="center">
+<img alt="Logo minha jornada" src="./imagens/api2/Capa.gif" height="100">
+</p>
 
 ## Empresa
 <p align="justify">
-A IACIT foi fundada em 1986 no Brasil, possui sede em São José dos Campos e é um importante centro para a indústria aeroespacial do Brasil, com certificação dada pelo Ministério da Defesa de Empresa de estratégia de Defesa. Ela desenvolve projetos e sistemas para o auxílio do controle e do tráfego aéreo e marítmo, defesa e segurança publica, meteorologia, pesquisa e telemetria.
+A IACIT foi fundada em 1986 no Brasil, possui sede em São José dos Campos e é um importante centro para a indústria aeroespacial do Brasil, com certificação dada pelo Ministério da Defesa de Empresa de estratégia de Defesa. Ela desenvolve projetos e sistemas para o auxílio do controle e do tráfego aéreo e marítimo, defesa e segurança pública, meteorologia, pesquisa e telemetria.
 </p>
 
 ## Problema
 <p align="justify">
-Grande parte do transporte de mercadorias no Brasil é feito por caminhões, isso põem muita pressão em empresas para as entregas serem entregas corretamente. Para garantir o maior controle possivél a empresa quer ter as informações de registro das jornadaa de trabalho, repousos, horários de alimentação e horas extra dos seus caminhoneiros na logistica.
+Grande parte do transporte de mercadorias no Brasil é feito por caminhões, isso põem muita pressão em empresas para as entregas serem entregas corretamente. Para garantir o maior controle possível a empresa quer ter as informações de registro das jornadas de trabalho, repousos, horários de alimentação e horas extra dos seus caminhoneiros na logística.
 </p>
 
 ## Solução
@@ -32,6 +35,15 @@ Nesse projeto a carga de atividades foi melhor distribuida comparado ao primeiro
 
 ### Modelo conceitual e lógico.
 Eu desenhei os dois modelos para ajudar no desenvolvimento do projeto.
+#### Modelo Conceitual
+<p align="center">
+<img alt="modelo conceitual" src="./imagens/api2/Modelo Conceitual.png" height="100">
+</p>
+
+#### Modelo Lógico
+<p align="center">
+<img alt="modelo lógico" src="./imagens/api2/Modelo Lógico.png" height="100">
+</p>
 
 ### CRUD de veiculos
 <p align="justify">

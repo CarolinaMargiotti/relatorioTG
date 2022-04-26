@@ -14,7 +14,7 @@
 
 # Em 2020-1 (LittlePet) 1º Semestre
 <p align="center">
-<img alt="Logo littlePet" src="./imagens/logo little pet.png" height="100">
+<img alt="Logo littlePet" src="./imagens/api1/logo little pet.png" height="100">
 </p>
 
 ## Empresa
@@ -42,12 +42,12 @@ Nosso grupo, que continha 6 elementos (comigo estando no time de desenvolvimento
 
 ### Hardware
 
-O hardware foi feito por uma coléga do grupo, nele foram utilizados:
+O hardware foi feito por uma colega do grupo, nele foram utilizados:
 - Uma balança de carga 5kg
 
 Usado para calcular o peso de ração presente no dispensador, para mandar um aviso quando está vazio e precisa ser reenchido.
 <p align="center">
-<img alt="balança de carga" src="./imagens/balança de carga.jpg" height="300" width="300">
+<img alt="balança de carga" src="./imagens/api1/balança de carga.jpg" height="300" width="300">
 </p>
 
 
@@ -55,34 +55,34 @@ Usado para calcular o peso de ração presente no dispensador, para mandar um av
 
 Responsável pelo movimento de girar para derrubar ração.
 <p align="center">
-<img alt="motor" src="./imagens/motor.jpg" height="300">
+<img alt="motor" src="./imagens/api1/motor.jpg" height="300">
 </p>
 
 - WI-FI Lora 915MHZ
 
 Se conecta ao banco para enviar dados novos.
 <p align="center">
-<img alt="wifi lora" src="./imagens/wifi lora.jpg" height="300">
+<img alt="wifi lora" src="./imagens/api1/wifi lora.jpg" height="300">
 </p>
 
 - Placa Arduino Bluetooth
 
 Se comunica com outros componentes sendo utilizados.
 <p align="center">
-<img alt="placa arduino" src="./imagens/bluetooth.jpg" height="300">
+<img alt="placa arduino" src="./imagens/api1/bluetooth.jpg" height="300">
 </p>
 
 - Placa HX711
 
 Converte os valores de peso da balança para dados digitais.
 <p align="center">
-<img alt="hx711" src="./imagens/hx711.jpg" height="300">
+<img alt="hx711" src="./imagens/api1/hx711.jpg" height="300">
 </p>
 
 Segue imagem do projeto abaixo com alguns itens visíveis demarcados:
 
 <p align="center">
-<img alt="hx711" src="./imagens/projeto hardware.png" height="500">
+<img alt="hx711" src="./imagens/api1/projeto hardware.png" height="500">
 </p>
 
 1. Motor
@@ -99,7 +99,7 @@ O aplicativo mobile eu fiz boa parte da codificação, com um outro membro auxil
 Abaixo está a tela principal do aplicativo que será explicado de cima para baixo a seguir.
 
 <p align="center">
-<img alt="tela aplicativo de agendamento" src="./imagens/tela aplicativo little pet.png" height="500">
+<img alt="tela aplicativo de agendamento" src="./imagens/api1/tela aplicativo little pet.png" height="500">
 </p>
 
 1. Um bloco informando qual usuário está conectado e o botão para deslogar o mesmo.
@@ -119,7 +119,7 @@ A seguir explicarei alguns códigos principais do projeto e que eu fui responsav
 O usuário poderia agendar horários nos quais a ração seria dispensada do dispensador, na mesma hora o aplicativo notificava o usuário.
 
 <p align="center">
-<img alt="código verificar alarme" src="./imagens/notificar alarme numerado.png" height="500">
+<img alt="código verificar alarme" src="./imagens/api1/notificar alarme numerado.png" height="500">
 </p>
 
 1. É criado uma variavel que recebe qual horário é atualmente.
@@ -144,7 +144,7 @@ Caso o horário seja semanal:
 Aqui segue o código utilizado para salvar um horário para o dispensar da ração.
 
 <p align="center">
-<img alt="código salvando horário de alarme" src="./imagens/salvar horario numerado.png" height="500">
+<img alt="código salvando horário de alarme" src="./imagens/api1/salvar horario numerado.png" height="500">
 </p>
 
 1. Primeiro se é verificado se o horário é semanal, se não tem valor na lista de dias da semana escolhidos assumi-se que não.
