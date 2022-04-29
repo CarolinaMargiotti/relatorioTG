@@ -1,4 +1,8 @@
 # Carolina Margiotti de Abreu
+<img alt="foto minha" src="./imagens/eu.jpg" height="350">    
+
+Linkedin: [Link](https://www.linkedin.com/in/carolina-margiotti-703897193/) \
+Email: carolinamargiott2i@gmail.com
 
 # Tabela de conteúdo
 1. [Introdução](#introdução)
@@ -10,9 +14,8 @@
     - [Em 2021-1 (Learning Management System) 3º Semestre](#em-2021-1-learning-management-system-3º-semestre)
  3. [Principais Conhecimentos](#principais-conhecimentos)
 
-# Introdução
-<img alt="foto minha" src="./imagens/eu.jpg" height="350">
 
+# Introdução
 
 ## Escolaridade
 <p align="justify">
@@ -79,5 +82,3 @@ Segue abaixo os links para os arquivos correspondentes.
     <p>
         Um framweork de javascript que aprendi por conta do estágio. Bem poderoso e intuitivo, consigo fazer o básico-intermediario nele mas me falta conhecimento avançado para dominar verdadeiramente.
     </p>
-
-    
