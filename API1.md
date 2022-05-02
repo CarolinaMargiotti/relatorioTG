@@ -19,16 +19,7 @@
 
 ## Empresa
 <p align="justify">
-As Fatecs são instituições importantes para o Brasil em ensino superior, sendo pioneiras na graduação de tecnólogos e localizadas em vÁrias cidades pelo estado de São Paulo. A unidade de São José dos Campos oferece um grande número de cursos para graduação de nível superior neles incluindo analise e desenvolvimento de sistemas, Banco de dados, manutenção de aeronaves entre outros.
-</p>
-
-<p align="justify">
-Em 2020 foi iniciado o projeto integrador na Fatec, em que a faculdade fazia parceria com empresas para realizar um projeto em conjunto, os alunos recebiam o problema das empresas e elaboram uma solução que é apresentada em sprints e no fim há uma feira de soluções com cada grupo de alunos apresentando seus projetos.
-</p>
-
-<p align="justify">
-No primeiro semestre os alunos decidem um próprio problema para resolver no decorrer do semestre.
-</p>
+No primeiro semestre não se teve uma empresa, os projetos foram definidos pelas equipes.
 
 ## Problema
 <p align="justify">
