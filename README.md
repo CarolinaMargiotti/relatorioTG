@@ -50,35 +50,13 @@ Segue abaixo os links para os arquivos correspondentes.
 
 # Principais Conhecimentos
 
-- HTML
-    <p>
-       Uma linguagem de marcação de hipertexto usada para web. Estudo desde o técnico de informatica, consigo trabalhar com tranquilidade.
-    </p>
-- CSS
-        <p>
-        Responsavél por adicionar estilo á uma pagina web. Também vejo desde o técnico, ja fiz outros cursos pela internet além disso. Sei trabalhar com o basico-intermediario, procuro me aprofundar mais á frente no avançado, tipo animações e como desenhar elementos com poligonos mais complexos e coisas do tipo.
-    </p>
-- Javascript
-        <p>
-        Uma linguagem de programação que foi por muito templo exclusivo para web mas agora se expandiu para além. Outro velho conhecido da época do ensino técnico, consigo trabalhar confortavelmente.
-    </p>
-- Tailwind
-    <p>
-        Um framework de CSS. Tive o primeiro contato no quarto semestre da faculdade, foi breve mas deixou um grande impacto, aprendi bastante no tempo do projeto integrador que usamos ele e quero ver mais dele mais á frente, mas acredito ja ser capaz de trabalhar confortavelmente.
-    </p>
-- React
-    <p>
-        Framework para javascript. Aprendi sobre ele no quarto semestre e estou vendo ele de novo agora no quinto semestre, sei como funciona e como trabalhar com ele no nivel básico, precisaria estudar pouco para chegar a nivel intermediario.
-    </p>
-- Typescript
-        <p>
-        Superset para javascript. Tive meu primeiro contato no estágio na SOLUCX, fiz um curso pequeno sobre e o resto aprendi com a experiencia do dia a dia no serviço. Consigo trabalhar confortavelmente.
-    </p>
-- Bootstrap
-    <p>
-        Framework CSS, embora tive alguns contatos breves com ele anos antes, foi a primeira vez que realmente mergulhei nele e aprendi como funcionava. Consigo trabalhar confortavelmente mas também pretendo me aprofundar mais no futuro próximo.
-    <p>
-- Vue
-    <p>
-        Um framweork de javascript que aprendi por conta do estágio. Bem poderoso e intuitivo, consigo fazer o básico-intermediario nele mas me falta conhecimento avançado para dominar verdadeiramente.
-    </p>
+| Ferramenta | Nível |
+| --------- | -------- |
+| HTML | Avançado |
+| CSS | Intermediário |
+| Javascript | Avançado |
+| Tailwind | Básico |
+| React | Intermediário |
+| Typescript | Intermediário |
+| Bootstrap | Intermediário |
+| Vue | Intermediário |
