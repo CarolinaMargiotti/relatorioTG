@@ -92,17 +92,17 @@ Um editor gráfico de vetor e prototipagem de projetos de design.
 ### Hard Skills
 - Java, Spring, Hibernate:
 <p align="justify">
-Desenvolvi mais o conhecimento em Java que já havia adquirido no ensino técnico, sendo apresentada a um framework java e framework de persistência de dados pela primeira vez, não dominei completamente essas tecnologias, mas tive um conhecimento mais sólido de como funcionam que me ajudaram em projetos com essas tecnologias que vieram no futuro em outras matérias.
+Possuo agora conhecimento básico.
 </p>
 
 - Postgres:
 <p align="justify">
-Não havia tido contato com postgres antes, foi minha primeira vez e agora consigo usá-lo com relativa facilidade.
+Possuo agora conhecimento básico.
 </p>
 
 - Figma:
 <p align="justify">
- Também me foi apresentado Figma pela primeira vez, aprendi facilmente e me lembro sem dificuldade com o que aprendi, agora no quinto semestre tive que auxiliar no figma do projeto integrador e pude trabalhar sem recorrer a tutoriais na internet ou outros conteúdos para me lembrar de como funciona.
+Possuo agora conhecimento intermediário.
 </p>
 
 ### Soft Skills
