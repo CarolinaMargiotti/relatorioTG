@@ -23,12 +23,12 @@ No primeiro semestre não se teve uma empresa, os projetos foram definidos pelas
 
 ## Problema
 <p align="justify">
-Os dispensadores automáticos de ração existentes hoje em dia no mercado foram feitos para trabalhar com ração de cachorros e gatos principalmente, um trabalho no qual ele faz muito bem, mas peca quando é usado com outros tipos de ração tipo o de roedores que é normalmente encontrado no formato cilíndrico, que muitas vezes empaca no dispensador entre outros inconvenientes. O projeto virava oferecer uma opção de dispensador de ração automático feito para roedores, contendo inclusive a possibilidade de se programar quando a ração será dispensada.
+Os dispensadores automáticos de ração existentes hoje no mercado foram feitos para trabalhar com ração de cachorros e gatos, mas peca quando é usado com rações de outros pets muitas vezes mostra mal funcionamento entre outros inconvenientes. O projeto visa oferecer uma opção de dispensador de ração automático feito para ração de roedores, contendo inclusive a possibilidade de se programar quando a ração será dispensada.
 </p>
 
 ## Solução
 <p align="justify">
-Nosso grupo, que continha 6 elementos (comigo estando no time de desenvolvimento) teve a solução de fazer dois projetos, um com Arduino para cuidar da parte física do dispensador e o segundo um aplicativo mobile que cuidou da parte de agendamento prático para notificar a hora de dispensar ração, customizada pelo usuário.
+Nossa solução foi fazer dois projetos, um com Arduino para cuidar da parte física do dispensador e o segundo um aplicativo mobile para o agendamento de horários e notificacação. Nosso grupo continha 6 elementos no ínicio mas acabamos com apenas dois membros ativos no fim, eu atuando no time de desenvolvimento. 
 </p>
 
 ### Hardware
