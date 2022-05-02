@@ -28,12 +28,12 @@ Com o início da pandemia esteve-se mais comum em empresas o treinamento online 
 De forma simples e intuitiva o LMS - Learning Management System, deve funcionar via web, com acesso via computador, tablet ou celular (pelo navegador), sem a necessidade de instalação de qualquer plug-in. A plataforma web deve aceitar a publicação de arquivos scom, mp4, mp3, pdf, jpeg e png. Seu layout deve ser de fácil personalização, possuindo templates pré definidos, trazendo autonomia para a gestão da plataforma.
 </p>
 <p align="justify">
-Esse foi o projeto mais conturbado para desenvolvimento para mim e o time que fiz até o momento (quinto semestre), a adição de docker no projeto deixou o projeto impossível de se trabalhar para maioria do grupo, muitos de nós usávamos windows e não conseguimos fazer docker funcionar em nossas maquinas, nos impossibilitando de trabalhar no código, só dois da equipe tiveram sucesso (por usarem linux), mas mesmo assim se recusaram de desistir do docker, limitando muito o que eu pude fazer pela equipe. Arrependo-me de ter deixado a situação assim.
+Esse foi o projeto mais conturbado para desenvolvimento, a adição de docker no projeto o deixou impossível de se trabalhar para maioria do grupo, muitos usavam o sistema operacional windows (inclusive eu) e não conseguimos fazer docker funcionar nele, nos impossibilitando de trabalhar no código; Apena dois da equipe conseguiram trabalhar no projeto. Arrependo-me de ter deixado a situação assim.
 </p>
 
-### Link para os meets
+### Link para as reuniões
 <p align="justify">
-Contribui programando a lógica para geração de links das reuniões (O administrador do site poderia criar uma reunião no meet ou zoom e por o link para tal no site), e programei duas páginas diferentes para caso seja meet ou zoom, as duas possuíam estilo diferente.
+O administrador do site poderia publicar um link de reunião que redirecionava os alunos para uma reunião no meet e zoom, fiquei responsavél por isto.
 </p>
 
 ### ReadMe
@@ -54,7 +54,7 @@ Fora isso minhas contribuições foram com comentários e sugestões em reuniõe
 ### Hard Skills
 - Ruby e Ruby on rails
 <p align="justify">
-Infelizmente não consegui adquirir muita experiencia por meio do projeto nessa linguagem e framework, mas completei um curso introdutório para as duas então posso dizer que fui introduzida a ela.
+Fui introduzida.
 </p>
 
 ### Soft Skills
@@ -63,15 +63,15 @@ Infelizmente não consegui adquirir muita experiencia por meio do projeto nessa 
 Mesmo com as enormes dificuldades enfrentadas procurei outras atividades importantes e que eu poderia efetuar, como melhorar o readme (os professores cobraram da nossa equipe o melhorar porque estava fraco), programei o que conseguia sem precisar levantar o servidor e continuei aparecendo á reuniões.
 </p>
 <p align="justify">
-Com relação ao docker eu também persisti bastante, vendo vídeos e pedindo ajuda para os membros que conheciam mais, fizemos várias vídeo chamadas tentando o fazer funcionar, mas infelizmente não tivemos resultado.
+Persisti bastante, vi vídeos e pedi ajuda para os membros, fizemos vídeo chamadas tentando fazer o docker funcionar, mas infelizmente não tivemos resultado.
 </p>
 
 - Visão geral:
 <p align="justify">
-Notei que minha equipe estava tendo o mau costume de fazer a entrega inteira um dia antes da data de entrega, e tentava os relembrar que isso não era bom e relembrar das datas de entrega durante a sprint.
+Minha equipe criou o mau hábito de realizar a entrega da sprint algumas horas antes da hora de entrega. Os alertava disso e da data durante as sprints.
 </p>
 
 - Empatia:
 <p align="justify">
-Adicionando ao falado em cima, eu também perguntava se precisavam de ajuda em outras tarefas e trabalhos do semestre para terem mais tempo para desenvolver as entregas para a sprint, caso seja esse o motivo deles estarem deixando para fazer as entregas na última hora.
+Perguntava se os membros precisavam de ajuda em tarefas e trabalhos do semestre para terem mais tempo para desenvolver as entregas para a sprint.
 </p>
