@@ -20,7 +20,8 @@ A NESS Health é uma empresa brasileira que atua em transformação digital em m
 
 ## Problema
 <p align="justify">
-Com o início da pandemia esteve-se mais comum em empresas o treinamento online de funcionários, foi requisitado a nós um sistema para ajudar com o treinamento através de cursos disponíveis por um site.
+Com o início da pandemia esteve-se mais comum empresas fazerem treinamento online de funcionários, nos foi requisitado um sistema para ajudar com o treinamento através de um site de cursos.
+
 </p>
 
 ## Solução
@@ -28,7 +29,7 @@ Com o início da pandemia esteve-se mais comum em empresas o treinamento online 
 De forma simples e intuitiva o LMS - Learning Management System, deve funcionar via web, com acesso via computador, tablet ou celular (pelo navegador), sem a necessidade de instalação de qualquer plug-in. A plataforma web deve aceitar a publicação de arquivos scom, mp4, mp3, pdf, jpeg e png. Seu layout deve ser de fácil personalização, possuindo templates pré definidos, trazendo autonomia para a gestão da plataforma.
 </p>
 <p align="justify">
-Esse foi o projeto mais conturbado para desenvolvimento, a adição de docker no projeto o deixou impossível de se trabalhar para maioria do grupo, muitos usavam o sistema operacional windows (inclusive eu) e não conseguimos fazer docker funcionar nele, nos impossibilitando de trabalhar no código; Apena dois da equipe conseguiram trabalhar no projeto. Arrependo-me de ter deixado a situação assim.
+Esse foi o projeto mais conturbado para desenvolvimento, a adição de docker no projeto o deixou impossível de se trabalhar para maioria do grupo pois muitos usavam o sistema operacional windows (inclusive eu) e o docker é conhecido por não ter compatibilidade com ele, nos impossibilitando de trabalhar no código e não descobrimos meios de resolver isso durante o semestre. Apena dois da equipe conseguiram trabalhar no projeto. Arrependo-me de ter deixado a situação assim.
 </p>
 
 ### Link para as reuniões
