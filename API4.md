@@ -28,6 +28,12 @@ Nosso cliente possui a necessidade de automatizar a geração de manuais para as
 </p>
 
 ## Tecnologias Utilizadas
+- Electron
+- React
+- Tailwind CSS
+- HTML
+- Spring Boot
+- PostgresSQL
 
 ## Contribuições Pessoais
 
