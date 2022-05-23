@@ -69,7 +69,7 @@ Persisti bastante, vi vídeos e pedi ajuda para os membros, fizemos vídeo chama
 
 - Visão geral:
 <p align="justify">
-Minha equipe criou o mau hábito de realizar a entrega da sprint algumas horas antes da hora de entrega. Os alertava disso e da data durante as sprints.
+Minha equipe criou o mau hábito de realizar a entrega da sprint algumas horas antes da hora de entrega, reconhecia isso como um comportamento problemático e tentava os alertar disso.
 </p>
 
 - Empatia:
