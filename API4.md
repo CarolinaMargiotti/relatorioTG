@@ -11,14 +11,16 @@
             - [Soft Skills](#soft-skills)
 
 # Em 2021-1 (AirplaneDocGenerator) 4º Semestre
-[Github AirplaneDocGenerator]()
+[Github AirplaneDocGenerator](https://github.com/CarolinaMargiotti/AirplaneDocGenerator)
 
 ## Empresa
 <p align="justify">
+Embraer é uma empresa da área aeroespacial, trabalhando na fabricação de aviões e peças aeroespaciais, além de oferecer outros tipos de suporte.
 </p>
 
 ## Problema
 <p align="justify">
+Nosso cliente possui a necessidade de automatizar a geração de manuais para as suas aeronaves, pois, atualmente, o processo é feito de forma manual, o que pode tomar muito tempo em razão da complexidade para a montagem deles e, também, pode aumentar as chances de erros. Nossa aplicação tem como objetivo resolver esses problemas através de uma interface simples e intuitiva que agilizará o processo.
 </p>
 
 ## Solução
@@ -26,7 +28,6 @@
 </p>
 
 ## Tecnologias Utilizadas
-
 
 ## Contribuições Pessoais
 
