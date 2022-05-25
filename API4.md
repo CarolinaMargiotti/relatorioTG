@@ -5,6 +5,8 @@
         - [Empresa](#empresa)
         - [Problema](#problema)
         - [Solução](#solução)
+            - [Client](#client)   
+            - [Server](#server)   
         - [Tecnologias utilizadas](#tecnologias-utilizadas)
         - [Contribuições Pessoais](#contribuições-pessoais)
             - [Hard Skills](#hard-skills)
