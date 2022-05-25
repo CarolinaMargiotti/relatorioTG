@@ -10,7 +10,7 @@
             - [Hard Skills](#hard-skills)
             - [Soft Skills](#soft-skills)
 
-# Em 2021-1 (AirplaneDocGenerator) 4º Semestre
+# Em 2021-2 (AirplaneDocGenerator) 4º Semestre
 [Github AirplaneDocGenerator](https://github.com/CarolinaMargiotti/AirplaneDocGenerator)
 
 ## Empresa
