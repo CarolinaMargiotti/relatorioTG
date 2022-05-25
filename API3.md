@@ -44,11 +44,16 @@ Escrevi boa parte do readme, criando o indice, a tabela de membros, tecnologias 
 Fora isso minhas contribuições foram com comentários e sugestões em reuniões do grupo que tínhamos toda semana.
 
 ## Tecnologias Utilizadas
-- Ruby 
-   - Ruby on rails 
-- Bootstrap
-- Postgres
-- Docker
+- Ruby \
+Linguagem de programação front e back.
+   - Ruby on rails \
+   Framework para agilizar desenvolvimento com Ruby.
+- Bootstrap \
+Biblioteca de css para front.
+- Postgres \
+Banco de dados para guardar dados.
+- Docker \
+Tecnologia de container usada para automatizar preparo de ambiente.
 
 ## Contribuições Pessoais
 
