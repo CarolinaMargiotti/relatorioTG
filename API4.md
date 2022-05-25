@@ -28,12 +28,16 @@ Nosso cliente possui a necessidade de automatizar a geração de manuais para as
 </p>
 
 ## Tecnologias Utilizadas
-- Electron
-- React
-- Tailwind CSS
-- HTML
-- Spring Boot
+- Electron.js \
+Para o desenvolvimento do aplicativo de desktop, utilizando linguagem de programação javascript.
+- React \
+Framework para agilizar desenvolvimento com javascript.
+- Tailwind CSS \
+Biblioteca de css para ajudar no desenvolvimento do front-end.
+- Spring Boot \
+Utilizado para o back-end, utilizando a linguagem de programação java.
 - PostgresSQL
+Banco de dados.
 
 ## Contribuições Pessoais
 
