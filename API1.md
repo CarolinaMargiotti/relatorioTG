@@ -102,57 +102,18 @@ Abaixo está a tela principal do aplicativo que será explicado de cima para bai
 7. Botão para confirmar a adição do horário novo.
 8. Um texto adicionado para a etapa de desenvolvimento, informando onde o aparelho estava conectado, retirado na versão final.
 
-A seguir explicarei alguns códigos principais do projeto e que eu fui responsavel por programar eles.
 
+#### Agendamento de horário
+Programeni o agendamento de horários nos quais a ração seria dispensada do dispensador.
 
-#### Notificação do alarme
+#### Conexão com arduino.
+Fiz a programação para a conexão com o arduino.
 
-O usuário poderia agendar horários nos quais a ração seria dispensada do dispensador, na mesma hora o aplicativo notificava o usuário.
+#### Login
+Programei a pagina de login.
 
-<p align="center">
-<img alt="código verificar alarme" src="./imagens/api1/notificar alarme numerado.png" height="500">
-</p>
-
-1. É criado uma variavel que recebe qual horário é atualmente.
-2. Numa lista que contém os horários agendados para o dia atual é verificado se a hora atual é um horário marcado para a dispensão da ração.
-3. Caso sim entra-se em outra condição na qual é verificado se o alarme é semanal ou é de uso único.
-
-Caso o horário é de uso único:
-
-4. O horário atual é removido da lista de horários para se notificar do dia.
-5. Da lista total de horários é removido o horário.
-6. É reatribuido ao componente lista que é apresentado ao usuário a nova lista de horários, agora sem esse horário que ja foi concluido e não deve existir mais.
-7. É enviado ao bluetooth o texto 1 que sinaliza o arduino para dispensar ração.
-8. Uma notificação é enviada para o usuário informando que a ração foi dispensada.
-
-Caso o horário seja semanal:
-
-9. O horário atual é removido da lista de horários para se notificar do dia.
-10. É enviado ao bluetooth o texto 1 que sinaliza o arduino para dispensar ração.
-11. Uma notificação é enviada para o usuário informando que a ração foi dispensada.
-
-#### Salvando os horários no banco
-Aqui segue o código utilizado para salvar um horário para o dispensar da ração.
-
-<p align="center">
-<img alt="código salvando horário de alarme" src="./imagens/api1/salvar horario numerado.png" height="500">
-</p>
-
-1. Primeiro se é verificado se o horário é semanal, se não tem valor na lista de dias da semana escolhidos assumi-se que não.
-
-Caso o horário seja de uso único:
-
-2. A hora é adicionada na lista demarcada para os alarmes de uso único.
-3. Da mesma forma é adicionado na lista de horários á serem alertados hoje o horário escolhido.
-
-Caso o horário deva se repetir:
-
-4. Condição para se verificar se o horário criado hoje acontece de ser numa data que é para ser acionado.
-5. Caso sim ele é adicionado na lista dos horários para serem acionados no dia.
-6. Para cada dia da semana que foi selecionada para o horário acionar (Segunda, Quarta, Quinta por exemplo) o alarme, as ações 7 e 8 serão feitas.
-7. Pede-se para o banco de dados guardar o horário no campo especificado na tag, sendo ele dentro da agenda do usuário logado e dentro da lista do dia da semana na agenda dele.
-8. Um identificador que diferencia os horários é atribuido uma unidade a mais para o próximo valor não o substituir.
-
+#### Notificação
+Fiz a programação da notificação do aplicativo, para identificar quando uma hora agendada chegou e soltar a notificação para o usuario.
 
 
 ## Tecnologias Utilizadas
