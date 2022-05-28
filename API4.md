@@ -43,10 +43,20 @@ Desenvolvido com electron, react e tailwind, permitia a visualização dos manua
 
 Eu programei os filtros para pesquisa e o sistema de filtrar dos manuais na pesquisa deles.
 
+<p align="center">
+<img src="./imagens/api4/filtro.png">
+</p>
+
 #### Criar nova linha
 
-// fix-me \
-Criei o componente e programei sua funcionalidade.
+Os manuais eram formados por linhas que apontavam para uma pagina do manual, eu programei o botão e o modal para adicionar uma linha nova ao manual.
+
+<p align="center">
+<img src="./imagens/api4/nova_linha.png">
+</p>
+<p align="center">
+<img src="./imagens/api4/linha.png">
+</p>
 
 #### Tooltips
 
