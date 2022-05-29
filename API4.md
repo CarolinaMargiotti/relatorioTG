@@ -62,13 +62,25 @@ Os manuais eram formados por linhas que apontavam para uma pagina do manual, eu 
 
 Criei o componente de tooltip e programei sua funcionalidade, permitindo fácil uso dele na programação para mostrar dicas e explicações de funcionalidades.
 
+<p align="center">
+<img src="./imagens/api4/tooltip.png">
+</p>
+
 #### Pagina de criar manuais
 
 Programei o esqueleto da pagina de criar manuais, embora não com as funcionalidades completas o visual estava 100% funcional e só foi necessário outro membro depois trocar os logs de console para o chamar da função que criaram para tal.
 
+<p align="center">
+<img src="./imagens/api4/criar_manual.png">
+</p>
+
 #### CardHeader
 
 Um componente criado por mim, fica no topo de todas as paginas do sistema para explicar seu objetivo e mostrar o nome da pagina.
+
+<p align="center">
+<img src="./imagens/api4/cardheader.png">
+</p>
 
 #### Criação do client
 
@@ -87,7 +99,7 @@ Programei a estrutura base que um dos colegas usou para a pagina de seleção de
 
 #### Swagger
 
-Adicionei e configurei o swagger para o uso do projeto.
+Swagger é uma ferramenta para documentação de APIs para agilizar o desenvolvimento. O configurei para o uso do projeto.
 
 ## Tecnologias Utilizadas
 
