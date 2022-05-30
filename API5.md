@@ -69,3 +69,12 @@ Banco de dados NoSQL escolhido para armazenar os dados.
 - MongoDB: Sei fazer com autonomia.
 
 ### Soft Skills
+- Trabalho em equipe
+<p align="justify">
+    Quando um membro da equipe começou a ter dificuldades com o menu me ofereci para ajuda-lo mesmo que adiasse um pouco minha tarefa, mas eu estava confiante que não teria problemas com ela então não fez mal.    
+</p>
+
+- Consciência Social
+<p align="justify">
+    Notei que os lideres da equipe estavam desenvolvendo muito rapido as tarefas por terem mais tempo livre e "atropelando" o time desenvolvimento assim.   Numa discussão sobre isso admitiram não confiar na gente e nos julgar injustamente pela nossa falta de tempo e dificuldades, tentei defender a equipe em frente a isso.
+</p>
