@@ -50,7 +50,7 @@ Linguagem de programação front e back.
    Framework para agilizar desenvolvimento com Ruby.
 - Bootstrap \
 Biblioteca de css para front.
-- Postgres \
+- PostgresSQL \
 Banco de dados para guardar dados.
 - Docker \
 Tecnologia de container usada para automatizar preparo de ambiente.
