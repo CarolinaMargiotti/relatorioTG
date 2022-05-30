@@ -90,20 +90,11 @@ Um editor gráfico de vetor e prototipagem de projetos de design.
 ## Contribuições Pessoais
 
 ### Hard Skills
-- Java, Spring, Hibernate:
-<p align="justify">
-Possuo agora conhecimento básico.
-</p>
+- Java, Spring, Hibernate: Fui introduzida.
+- Postgres: Fui introduzida.
+- Figma: Sei fazer com autonomia.
+- HTML, CSS: Sei fazer com autonomia.
 
-- Postgres:
-<p align="justify">
-Possuo agora conhecimento básico.
-</p>
-
-- Figma:
-<p align="justify">
-Possuo agora conhecimento intermediário.
-</p>
 
 ### Soft Skills
 - Flexibilidade no trabalho:
