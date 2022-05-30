@@ -15,6 +15,10 @@
 
 # Em 2021-2 (AirplaneDocGenerator) 4º Semestre
 
+<p align="center">
+<img src="./imagens/api4/Crab.png" alt="logo equipe" height="200">
+</p>
+
 [Github AirplaneDocGenerator](https://github.com/CarolinaMargiotti/AirplaneDocGenerator)
 
 ## Empresa
