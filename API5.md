@@ -36,7 +36,18 @@ A empresa parceira fabrica diversos veículos, que são utilizados ao redor do m
 
 ### ClaraClient
 
+#### Tela de filtro e pesquisa
+Criado tela de filtro e pesquisa para fols.
+
+#### Menu
+Eu refatorei o componete de menu, ele tinha o problema antes de não flutuar em cima dos outros componentes e outras melhorias de qualidade de vida e clean code.
+
 ### Server
+Criei e configurei o ambiente de desenvolvimento com python flask.
+
+### Outras contribuições
+#### LGPD
+Eu fiz a pesquisa inicial sobre LGPD e como poderiamos aplica-la ao app.
 
 ## Tecnologias Utilizadas
 - React Native
