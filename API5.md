@@ -65,7 +65,7 @@ Banco de dados NoSQL escolhido para armazenar os dados.
 
 ### Hard Skills
 - React Native: Sei fazer com ajuda.
-- Python, flask: Sei fazer com autonomia.
+- Python, Flask: Sei fazer com autonomia.
 - MongoDB: Sei fazer com autonomia.
 
 ### Soft Skills
