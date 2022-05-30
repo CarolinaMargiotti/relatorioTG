@@ -117,24 +117,10 @@ Swagger é uma ferramenta para documentação de APIs para agilizar o desenvolvi
 ## Contribuições Pessoais
 
 ### Hard Skills
-- Electron.js
-
-Fui introduzida.
-
-- React
-
-Sei fazer com autonomia.
-
-- Tailwind CSS
-
-Sei fazer com autonomia.
-
-- Spring Boot 
-
-Consigo fazer com ajuda.
-
-- PostgresSQL
-
-Sei fazer com autonomia.
+- Electron.js: Fui introduzida.
+- React: Sei fazer com autonomia.
+- Tailwind CSS: Sei fazer com autonomia.
+- Spring Boot: Consigo fazer com ajuda.
+- PostgresSQL: Consigo fazer com ajuda.
 
 ### Soft Skills
