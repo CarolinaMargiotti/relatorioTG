@@ -58,10 +58,10 @@ Tecnologia de container usada para automatizar preparo de ambiente.
 ## Contribuições Pessoais
 
 ### Hard Skills
-- Ruby e Ruby on rails
-<p align="justify">
-Fui introduzida.
-</p>
+- Ruby, Ruby on rails: Fui introduzida.
+- Bootstrap: Sei fazer com autonomia.
+- PostgresSQL: Consigo fazer com ajuda.
+- Docker: Ouvi falar.
 
 ### Soft Skills
 - Resiliência:
