@@ -62,8 +62,15 @@ Linguagem de programação.
 
 Microframework web do python, utilizado para as rotas de serviço.
 
+- MongoDB
+
+Banco de dados NoSQL escolhido para armazenar os dados.
+
 ## Contribuições Pessoais
 
 ### Hard Skills
+- React Native: Sei fazer com ajuda.
+- Python, flask: Sei fazer com autonomia.
+- MongoDB: Sei fazer com autonomia.
 
 ### Soft Skills
