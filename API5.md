@@ -34,12 +34,14 @@ A empresa parceira fabrica diversos veículos, que são utilizados ao redor do m
     Foi feito 3 repositórios de códigos diferente, server cuidando dos serviços que são consumidos pelos outros 2, ClaraClient que é o cliente acessado pelo celular por aplicativo e AdminClient que é a pagina web para o administrador visualizar dados e estatisticas.
 </p>
 
-### ClaraClient
+### Client
 
-#### Tela de filtro e pesquisa
+#### ClaraClient
+
+##### Tela de filtro e pesquisa
 Criado tela de filtro e pesquisa para fols.
 
-#### Menu
+##### Menu
 Eu refatorei o componete de menu, ele tinha o problema antes de não flutuar em cima dos outros componentes e outras melhorias de qualidade de vida e clean code.
 
 ### Server
@@ -50,20 +52,13 @@ Criei e configurei o ambiente de desenvolvimento com python flask.
 Eu fiz a pesquisa inicial sobre LGPD e como poderiamos aplica-la ao app.
 
 ## Tecnologias Utilizadas
-- React Native
-
+- React Native \
 Uma biblioteca do react para desenvolvimento mobile.
-
-- Python
-
+- Python \
 Linguagem de programação.
-
-- Flask
-
+    - Flask \
 Microframework web do python, utilizado para as rotas de serviço.
-
-- MongoDB
-
+- MongoDB \
 Banco de dados NoSQL escolhido para armazenar os dados.
 
 ## Contribuições Pessoais
