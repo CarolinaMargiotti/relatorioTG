@@ -124,7 +124,7 @@ Swagger é uma ferramenta para documentação de APIs para agilizar o desenvolvi
 - PostgresSQL: Consigo fazer com ajuda.
 
 ### Soft Skills
-- Cooperação
+- Trabalho em equipe
 <p align="justify">
     Neste api passei bastante tempo em chamada de voz ajudando outros membros com impedimentos no desenvolvimento ou os ajudando na lógica de suas tarefas.
 </p>
