@@ -128,3 +128,8 @@ Swagger é uma ferramenta para documentação de APIs para agilizar o desenvolvi
 <p align="justify">
     Neste api passei bastante tempo em chamada de voz ajudando outros membros com impedimentos no desenvolvimento ou os ajudando na lógica de suas tarefas.
 </p>
+
+- Responsabilidade
+<p align="justify">
+    Aparecia nas reuniões semanais e mais de um dia da semana conseguia tempo para produzir e auxiliar a equipe.
+</p>
