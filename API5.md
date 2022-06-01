@@ -54,7 +54,7 @@ Eu refatorei o componente de menu, ele tinha o problema antes de não flutuar em
 ### AdminClient
 
 #### Fols por acesso de usuario
-Criei a pagina para visualizar acessos de fol por cada usuario que autorizou ter o registro com seu nome.
+Criei a página para visualizar acessos de fol por cada usuário que autorizou ter o registro com seu nome.
 <p align="center">
     <img src="./imagens/api5/fols-users.png" alt="pagina acessos de fols por usuario" height="500" />
 </p>
@@ -65,7 +65,7 @@ Criei a pagina para visualizar acessos de fol por cada usuario que autorizou ter
 Criei e configurei o ambiente de desenvolvimento com Python Flask.
 
 #### Fols por acesso de usuario
-Nessa tarefa eu criei dois endpoints novos, um para pegar do MongoDB todos os nomes de usuarios e um para pegar a lista de fols acessadas de um usuario especifico.
+Nessa tarefa eu criei dois endpoints novos, um para pegar do MongoDB todos os nomes de usuários e um para pegar a lista de fols acessadas de um usuário especifico.
 
 ### Outras contribuições
 #### LGPD
