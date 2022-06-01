@@ -46,6 +46,10 @@ Criado tela de filtro e pesquisa para fols.
 
 ##### Menu
 Eu refatorei o componente de menu, ele tinha o problema antes de não flutuar em cima dos outros componentes e outras melhorias de qualidade de vida e código limpo.
+<p align="center">
+    <img src="./imagens/api5/menu.jpg" alt="menu consertado" height="500" />
+</p>
+
 
 ### AdminClient
 
