@@ -30,7 +30,7 @@ Embraer é uma empresa da área aeroespacial, trabalhando na fabricação de avi
 ## Problema
 
 <p align="justify">
-Nosso cliente possui a necessidade de automatizar a geração de manuais para as suas aeronaves, pois, atualmente, o processo é feito de forma manual, o que pode tomar muito tempo em razão da complexidade para a montagem deles e, também, pode aumentar as chances de erros. Nossa aplicação tem como objetivo resolver esses problemas através de uma interface simples e intuitiva que agilizará o processo.
+Nossa empresa parceira possui a necessidade de automatizar a geração de manuais para as suas aeronaves, pois, atualmente, o processo é feito de forma manual, o que pode tomar muito tempo em razão da complexidade para a montagem deles e, também, pode aumentar as chances de erros. Nossa aplicação tem como objetivo resolver esses problemas através de uma interface simples e intuitiva que agilizará o processo.
 </p>
 
 ## Solução
@@ -88,7 +88,7 @@ Um componente criado por mim, fica no topo de todas as páginas do sistema para 
 
 #### Criação do client
 
-Eu criei a base do projeto de cliente, configurando o Electron e React para o desenvolvimento.
+Eu criei a base do projeto de client, configurando o Electron e React para o desenvolvimento.
 
 #### Estrutura da seleção de projeto
 
