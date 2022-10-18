@@ -48,6 +48,7 @@ Foi feito um fork dos repositórios de front e back-end do aplicativo original p
 ##### Integrei a api criada por nós com o aplicativo
 ##### Programei para os dados recebidos pela api da contagem de sementes ser atribuida automaticamente nos campos.
 <img alt="gif upload da imagem e atribuição" src="./imagens/api6/chamada-endpoint-atribuicao.gif" height="500">
+
 ##### Conserto de bugs do aplicativo
 - Bug que o datepicker não pegava a data inserida.
 - Bug que causava erro ao criar uma propriedade.
@@ -62,6 +63,7 @@ Foi feito um fork dos repositórios de front e back-end do aplicativo original p
 #### Estruturar o projeto em flask
 ##### Script para resize e padding de imagem
 Resultado de um padding e resize:
+
 <img alt="foto soja resized com padding" src="./imagens/api6/newSoja.jpg" height="500">   
 
 
