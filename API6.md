@@ -31,13 +31,12 @@ A empresa parceira Visiona possui um aplicativo para registro e administração 
 ## Solução
 
 <p align="justify">
-Solução aqui
+Foi feito um fork dos repositórios de front e back-end do aplicativo original para facilitar no desenvolvimento das nossas mudanças e criado um segundo back-end para isolar as funcionalides de IA do outro.
 </p>
 
 ### Client
 
 #### ESoja Mobile
-
 
 ### Server
 
