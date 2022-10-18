@@ -43,11 +43,11 @@ Foi feito um fork dos repositórios de front e back-end do aplicativo original p
 
 ##### Reordenação da tela de upload de imagem para o meio do registro e não o fim.
 ##### Criei modal com instruções de como tirar a imagem para facilitar a relação usuario e inteligencia artificial.
-<img alt="foto minha" src="./imagens/api6/modal.png" height="500">   
+<img alt="png do modal" src="./imagens/api6/modal.png" height="500">   
 
 ##### Integrei a api criada por nós com o aplicativo
 ##### Programei para os dados recebidos pela api da contagem de sementes ser atribuida automaticamente nos campos.
-<img alt="foto minha" src="./imagens/api6/chamada-endpoint-atribuicao.gif" height="500">
+<img alt="gif upload da imagem e atribuição" src="./imagens/api6/chamada-endpoint-atribuicao.gif" height="500">
 ##### Conserto de bugs do aplicativo
 - Bug que o datepicker não pegava a data inserida.
 - Bug que causava erro ao criar uma propriedade.
@@ -61,7 +61,8 @@ Foi feito um fork dos repositórios de front e back-end do aplicativo original p
 
 #### Estruturar o projeto em flask
 ##### Script para resize e padding de imagem
-\~\~adicionar imagem
+Resultado de um padding e resize:
+<img alt="foto soja resized com padding" src="./imagens/api6/newSoja.jpg" height="500">   
 
 
 ### Infraestrutura
