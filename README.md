@@ -14,6 +14,7 @@ Email: carolinamargiott2i@gmail.com
     - [Em 2021-1 (Learning Management System) 3º Semestre](#em-2021-1-learning-management-system-3º-semestre)
     - [Em 2021-2 (AirplaneDocGenerator) 4º Semestre](#em-2021-2-airplanedocgenerator-4º-semestre)
     - [Em 2022-1 (Folconn) 5º Semestre](#em-2022-1-folconn-5º-semestre)
+    - [Em 2022-2 (Soyia) 6º Semestre](#em-2022-2-soyia-6º-semestre)
  3. [Principais Conhecimentos](#principais-conhecimentos)
 
 
@@ -55,6 +56,9 @@ Segue abaixo os links para os arquivos correspondentes.
 
 ## Em 2022-1 (Folconn) 5º Semestre
 - [Folconn](API5.md)
+
+## Em 2022-2 (Soyia) 6º Semestre
+- [Soyia](API6.md)
 
 # Principais Conhecimentos
 
