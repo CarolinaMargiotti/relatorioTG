@@ -20,7 +20,7 @@
 ## Empresa
 
 <p align="justify">
-Descrição empresa aqui
+A Visiona é uma empresa de atividade espacial que oferece integrações de sistemas espaciais, oferecendo através dos dados de satélites que a Embraer coleta do INPE, soluções para as necessidades civis e militares do Brasil.
 </p>
 
 ## Problema
