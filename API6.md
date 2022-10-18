@@ -25,7 +25,7 @@ Descrição empresa aqui
 
 ## Problema
 <p align="justify">
-Descrição problema aqui
+A empresa parceira Visiona possui um aplicativo para registro e administração de cultivos de soja, nele o agricultor pode registrar suas plantas e receber estatisticas sobre sua plantação, mas para o registro de amostras era exigido que ele fosse á campo, colhesse três amostras e contasse manualmente cada vagem e sentimento dessas plantas para o preenchimento de dados no aplicativo, isso levava em torno de 15 minutos para o agricultor e tornava o uso do aplicativo não tão conveniente. Vendo uma oportunidade de melhoria nesse aspecto, a Visiona veio a nós pedir para criar uma nova feature para a aplicação: Uma inteligência artificial que dava uma estimativa das vagens e sementes por planta apartir de uma foto da mesma, facilitando e agilizando seu trabalho.
 </p>
 
 ## Solução
