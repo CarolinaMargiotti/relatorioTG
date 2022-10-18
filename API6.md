@@ -38,6 +38,16 @@ Foi feito um fork dos repositórios de front e back-end do aplicativo original p
 
 #### ESoja Mobile
 
+##### Reordenação da tela de upload de imagem para o meio do registro e não o fim.
+##### Criei modal com instruções de como tirar a imagem para facilitar a relação usuario e inteligencia artificial.
+\~\~adicionar imagem
+##### Integrei a api criada por nós com o aplicativo
+##### Programei para os dados recebidos pela api da contagem de sementes ser atribuida automaticamente nos campos.
+##### Conserto de bugs do aplicativo
+- Bug que o datepicker não pegava a data inserida.
+- Bug que causava erro ao criar uma propriedade.
+- Bug que causava erro ao tentar criar uma amostra.
+
 ### Server
 
 #### Esoja-api
@@ -46,7 +56,8 @@ Foi feito um fork dos repositórios de front e back-end do aplicativo original p
 
 #### Estruturar o projeto em flask
 ##### Script para resize e padding de imagem
-##### Reordenação da tela de upload de imagem para o meio do registro e não o fim.
+\~\~adicionar imagem
+
 
 ### Infraestrutura
 Tivemos muitos problemas para fazer o aplicativo rodar pela falta de documentação, eu acabei resolvendo todos eles.
