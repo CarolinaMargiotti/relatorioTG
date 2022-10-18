@@ -59,7 +59,7 @@ Microframework web do Python, utilizado para as rotas de serviço.
 - Firebase \
 Banco de dados NoSQL escolhido para armazenar as imagens.
 - Node.js \
-
+Software open source para ambiente de server.
 - Prisma \
 Um ORM para typescript e node.js.
 - Docker \
