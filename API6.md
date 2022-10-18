@@ -14,6 +14,9 @@
         -   [Soft Skills](#soft-skills)
 
 # Em 2022-2 (Soyia) 6º Semestre
+<p align="center">
+<img alt="logo soia" src="./imagens/api6/logo.png" height="200">   
+</p>
 [Github Soyia](https://github.com/medrenan/SoyIA)
 
 
@@ -40,9 +43,11 @@ Foi feito um fork dos repositórios de front e back-end do aplicativo original p
 
 ##### Reordenação da tela de upload de imagem para o meio do registro e não o fim.
 ##### Criei modal com instruções de como tirar a imagem para facilitar a relação usuario e inteligencia artificial.
-\~\~adicionar imagem
+<img alt="foto minha" src="./imagens/api6/modal.png" height="500">   
+
 ##### Integrei a api criada por nós com o aplicativo
 ##### Programei para os dados recebidos pela api da contagem de sementes ser atribuida automaticamente nos campos.
+<img alt="foto minha" src="./imagens/api6/chamada-endpoint-atribuicao.gif" height="500">
 ##### Conserto de bugs do aplicativo
 - Bug que o datepicker não pegava a data inserida.
 - Bug que causava erro ao criar uma propriedade.
