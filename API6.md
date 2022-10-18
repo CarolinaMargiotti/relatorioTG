@@ -44,7 +44,26 @@ Foi feito um fork dos repositórios de front e back-end do aplicativo original p
 
 #### Soyia-api
 
+#### Estruturar o projeto em flask
+##### Script para resize e padding de imagem
+##### Reordenação da tela de upload de imagem para o meio do registro e não o fim.
+
 ### Infraestrutura
+Tivemos muitos problemas para fazer o aplicativo rodar pela falta de documentação, eu acabei resolvendo todos eles.
+
+#### Back
+- Consertei o arquivo env para conseguir levantar o docker.
+- Descobri que ja ter um postgres instalado localmente no sistema confundia o servidor.
+- Criei um script para fazer o servidor abrir adequadamente.
+- Descobri quais eram as urls de request e como chama-las.
+- Descobri como fazer autenticação para adquirir o token para os requests avançados.
+
+#### Front
+- Descobri como configurar o emulador do Android Studio para rodar as mudanças locais para o desenvolvimento.
+- Descobri que precisava por os ips da maquina local no arquivo de api para o aplicativo no emulador mobile encontrar o servidor.
+
+#### Armazenamento de imagens
+- Configurei o firebase para conseguirmos armazernamos as imagens.
 
 ## Tecnologias Utilizadas
 - React Native \
