@@ -135,3 +135,6 @@ Mantive o nosso site de escolha de gerenciamento de projeto atualizado e todas a
 
 - Scrum \
 Durante as sprints relembrava a equipe e cobrava de fazer dailies e sprint reviews e retrospectives para mantermos todos informados e animados com o projeto.
+
+- Problem Solving \
+Como falado no desenvolvimento, eu resolvi os problemas de infraestrutura que encontramos durante o desenvolvimento, e é uma área que não conheço bem então foi um desafio grande para mim, mas com analise e estudo foram resolvidos eventualmente por mim.
