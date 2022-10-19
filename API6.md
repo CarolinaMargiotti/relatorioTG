@@ -15,7 +15,7 @@
 
 # Em 2022-2 (Soyia) 6º Semestre
 <p align="center">
-<img alt="logo soia" src="./imagens/api6/logo.png" height="200">   
+<img alt="logo soyia" src="./imagens/api6/logo.png" height="200">   
 </p>
 
 [Github Soyia](https://github.com/medrenan/SoyIA)
@@ -35,7 +35,7 @@ A empresa parceira Visiona possui um aplicativo para registro e administração 
 ## Solução
 
 <p align="justify">
-Foi feito um fork dos repositórios de front e back-end do aplicativo original para facilitar no desenvolvimento das nossas mudanças e criado um segundo back-end para isolar as funcionalides de IA do outro.
+Foi feito fork dos repositórios de front e back-end do aplicativo original para facilitar o desenvolvimento das nossas mudanças e também foi criado um segundo back-end para isolar as funcionalides de IA.
 </p>
 
 ### Client
@@ -127,6 +127,7 @@ Virtualização de nível de sistema operacional para uso de contêineres.
 - Node.js: Sei fazer com autonomia.
 - Typescript: Sei fazer com autonomia.
 - Docker: Sei usar com ajuda.
+- Prisma: Ouvi falar.
 
 ### Soft Skills
 - Organização \
