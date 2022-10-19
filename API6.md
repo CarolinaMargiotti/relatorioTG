@@ -108,6 +108,13 @@ Virtualização de nível de sistema operacional para uso de contêineres.
 ### Hard Skills
 - React Native: Sei fazer com certa autonomia.
 - Python, Flask: Sei fazer com autonomia.
+- Node.js: Sei fazer com autonomia.
+- Typescript: Sei fazer com autonomia.
+- Docker: Sei usar com ajuda.
 
 ### Soft Skills
+- Organização \
+Mantive o nosso site de escolha de gerenciamento de projeto atualizado e todas as tarefas devidamente acompanhadas quando os outros membros se esqueciam de atualizar la.
 
+- Scrum \
+Durante as sprints relembrava a equipe e cobrava de fazer dailies e sprint reviews e retrospectives para mantermos todos informados e ligados com o projeto.
