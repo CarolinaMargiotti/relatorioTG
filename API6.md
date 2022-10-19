@@ -63,18 +63,27 @@ Programei para os dados recebidos pela api da contagem de sementes ser atribuíd
 </p>
     
 ##### Conserto de bugs do aplicativo
-O aplicativo original continha vários bugs que não foram resolvidos pela falta de tempo, resolvi os seguintes durante o desenvolvimento da nossa funcionalidade:
+O aplicativo original continha vários bugs que não foram resolvidos pela falta de tempo, não só no front mas no back também, resolvi os seguintes do front durante o desenvolvimento da nossa funcionalidade:
 - Bug que o datepicker não pegava a data inserida.
-- Bug que causava erro ao criar uma propriedade.
 - Bug que causava erro ao tentar criar uma amostra.
+
+##### Infraestrutura
+Tivemos muitos problemas para fazer o aplicativo rodar pela falta de documentação, os que analisei e ajustei para a equipe no front são:
+- Descobri como configurar o emulador do Android Studio para rodar as mudanças locais para o desenvolvimento.
+- Descobri que precisava por os ips da máquina local no arquivo de api para o aplicativo no emulador mobile encontrar o servidor.
 
 ### Server
 
 #### Esoja-api
+##### Conserto de bug
+O aplicativo original continha vários bugs que não foram resolvidos pela falta de tempo, não só no front mas no back também, resolvi os seguintes do back durante o desenvolvimento da nossa funcionalidade:
+Consertei um bug que causava erro ao criar uma propriedade.
 
 #### Soyia-api
 
 ##### Estruturar o projeto em flask
+Criei um projeto em flask para colocarmos nossos endpoints da IA.
+
 ##### Resize e padding de imagem
 O script foi criado para auxiliar a IA por IAs ter uma eficiência maior quando todas as imagens têm o mesmo tamanho.
 Resultado de um padding e resize:
@@ -83,21 +92,13 @@ Resultado de um padding e resize:
 <img alt="foto soja resized com padding" src="./imagens/api6/newSoja.jpg" height="500">   
 </p>
 
-### Infraestrutura
-Tivemos muitos problemas para fazer o aplicativo rodar pela falta de documentação, eu os analisei e solucionei para a equipe.
-
-#### Back
+##### Infraestrutura
+Tivemos muitos problemas para fazer o aplicativo rodar pela falta de documentação, os que analisei e ajustei para a equipe no back são:
 - Consertei o arquivo env para conseguir levantar o docker.
 - Descobri que ja ter um postgres instalado localmente no sistema confundia o servidor.
 - Criei um script para fazer o servidor abrir adequadamente.
 - Descobri quais eram as urls de request e como chama-las.
 - Descobri como fazer autenticação para adquirir o token para os requests avançados.
-
-#### Front
-- Descobri como configurar o emulador do Android Studio para rodar as mudanças locais para o desenvolvimento.
-- Descobri que precisava por os ips da máquina local no arquivo de api para o aplicativo no emulador mobile encontrar o servidor.
-
-#### Armazenamento de imagens
 - Configurei o firebase para conseguirmos armazenarmos as imagens.
 
 ## Tecnologias Utilizadas
