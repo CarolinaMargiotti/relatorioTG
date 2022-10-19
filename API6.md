@@ -47,15 +47,21 @@ As telas de criar cadastro já continha uma funcionalidade para salvamento de im
 
 ##### Modal de instruções
 Criei modal com instruções de como tirar a imagem para facilitar a relação usuário e inteligência artificial.
+
+<p align="center">
 <img alt="png do modal" src="./imagens/api6/modal.png" height="500">   
+</p>
 
 ##### Integração api
 Criamos nossa própria api para isolar os endpoints da IA do restante do aplicativo, fui responsável pela integração.
 
 ##### Atribuição automatica
 Programei para os dados recebidos pela api da contagem de sementes ser atribuída automaticamente nos campos.
-<img alt="gif upload da imagem e atribuição" src="./imagens/api6/chamada-endpoint-atribuicao.gif" height="500">
 
+<p align="center">
+<img alt="gif upload da imagem e atribuição" src="./imagens/api6/chamada-endpoint-atribuicao.gif" height="500">
+</p>
+    
 ##### Conserto de bugs do aplicativo
 O aplicativo original continha vários bugs que não foram resolvidos pela falta de tempo, resolvi os seguintes durante o desenvolvimento da nossa funcionalidade:
 - Bug que o datepicker não pegava a data inserida.
@@ -73,8 +79,9 @@ O aplicativo original continha vários bugs que não foram resolvidos pela falta
 O script foi criado para auxiliar a IA por IAs ter uma eficiência maior quando todas as imagens têm o mesmo tamanho.
 Resultado de um padding e resize:
 
+<p align="center">
 <img alt="foto soja resized com padding" src="./imagens/api6/newSoja.jpg" height="500">   
-
+</p>
 
 ### Infraestrutura
 Tivemos muitos problemas para fazer o aplicativo rodar pela falta de documentação, eu os analisei e solucionei para a equipe.
