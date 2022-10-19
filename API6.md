@@ -29,7 +29,7 @@ A Visiona é uma empresa de atividade espacial que oferece integrações de sist
 
 ## Problema
 <p align="justify">
-A empresa parceira Visiona possui um aplicativo para registro e administração de cultivos de soja, nele o agricultor pode registrar suas plantas e receber estatisticas sobre sua plantação, mas para o registro de amostras era exigido que ele fosse á campo, colhesse três amostras e contasse manualmente cada vagem e sentimento dessas plantas para o preenchimento de dados no aplicativo, isso levava em torno de 15 minutos para o agricultor e tornava o uso do aplicativo não tão conveniente. Vendo uma oportunidade de melhoria nesse aspecto, a Visiona veio a nós pedir para criar uma nova feature para a aplicação: Uma inteligência artificial que dava uma estimativa das vagens e sementes por planta apartir de uma foto da mesma, facilitando e agilizando seu trabalho.
+A empresa parceira Visiona possui um aplicativo para registro e administração de cultivos de soja, nele o agricultor pode registrar suas plantas e receber estatísticas sobre sua plantação, mas para o registro de amostras era exigido que ele fosse a campo, colhesse três amostras e contasse manualmente cada vagem e sentimento dessas plantas para o preenchimento de dados no aplicativo, isso levava em torno de 15 minutos para o agricultor e tornava o uso do aplicativo não tão conveniente. Vendo uma oportunidade de melhoria nesse aspecto, a Visiona veio a nós pedir para criar uma nova funcionalidade para a aplicação: Uma inteligência artificial que dava uma estimativa das vagens e sementes por planta apartir de uma foto da mesma, facilitando e agilizando seu trabalho.
 </p>
 
 ## Solução
@@ -42,15 +42,22 @@ Foi feito um fork dos repositórios de front e back-end do aplicativo original p
 
 #### ESoja Mobile
 
-##### Reordenação da tela de upload de imagem para o meio do registro e não o fim.
-##### Criei modal com instruções de como tirar a imagem para facilitar a relação usuario e inteligencia artificial.
+##### Reordenação das telas
+As telas de criar cadastro ja continha uma funcionalidade para salvamento de imagem, ela foi reaproveitada para permitir o usuario informar a imagem que deseja usar para calcular o numero de sementes, isso exigiu uma refatoração das telas pela bagunça na navegação e transferência de dados entre telas.
+
+##### Modal de instruções
+Criei modal com instruções de como tirar a imagem para facilitar a relação usuario e inteligencia artificial.
 <img alt="png do modal" src="./imagens/api6/modal.png" height="500">   
 
-##### Integrei a api criada por nós com o aplicativo
-##### Programei para os dados recebidos pela api da contagem de sementes ser atribuida automaticamente nos campos.
+##### Integração api
+Criamos nossa própria api para isolar os endpoints da IA do restante do aplicativo, fui responsavel pela integração.
+
+##### Atribuição automatica
+Programei para os dados recebidos pela api da contagem de sementes ser atribuida automaticamente nos campos.
 <img alt="gif upload da imagem e atribuição" src="./imagens/api6/chamada-endpoint-atribuicao.gif" height="500">
 
 ##### Conserto de bugs do aplicativo
+O aplicativo original continha vários bugs que não foram resolvidos pela falta de tempo, resolvi os seguintes durante o desenvolvimento da nossa funcionalidade:
 - Bug que o datepicker não pegava a data inserida.
 - Bug que causava erro ao criar uma propriedade.
 - Bug que causava erro ao tentar criar uma amostra.
@@ -61,15 +68,16 @@ Foi feito um fork dos repositórios de front e back-end do aplicativo original p
 
 #### Soyia-api
 
-#### Estruturar o projeto em flask
-##### Script para resize e padding de imagem
+##### Estruturar o projeto em flask
+##### Rresize e padding de imagem
+O script foi criado para auxiliar a IA por IAs ter uma eficiência maior quando todas as imagens tem o mesmo tamanho.
 Resultado de um padding e resize:
 
 <img alt="foto soja resized com padding" src="./imagens/api6/newSoja.jpg" height="500">   
 
 
 ### Infraestrutura
-Tivemos muitos problemas para fazer o aplicativo rodar pela falta de documentação, eu acabei resolvendo todos eles.
+Tivemos muitos problemas para fazer o aplicativo rodar pela falta de documentação, eu os analisei e solucionei para a equipe.
 
 #### Back
 - Consertei o arquivo env para conseguir levantar o docker.
@@ -114,7 +122,7 @@ Virtualização de nível de sistema operacional para uso de contêineres.
 
 ### Soft Skills
 - Organização \
-Mantive o nosso site de escolha de gerenciamento de projeto atualizado e todas as tarefas devidamente acompanhadas quando os outros membros se esqueciam de atualizar la.
+Mantive o nosso site de escolha de gerenciamento de projeto atualizado e todas as tarefas devidamente acompanhadas quando os outros membros se esqueciam de o atualizar.
 
 - Scrum \
-Durante as sprints relembrava a equipe e cobrava de fazer dailies e sprint reviews e retrospectives para mantermos todos informados e ligados com o projeto.
+Durante as sprints relembrava a equipe e cobrava de fazer dailies e sprint reviews e retrospectives para mantermos todos informados e animados com o projeto.
