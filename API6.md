@@ -118,6 +118,8 @@ Software open source para ambiente de server.
 Um ORM para typescript e node.js.
 - Docker \
 Virtualização de nível de sistema operacional para uso de contêineres.
+- Nest.js \
+Um framework para node.js.
 
 ## Contribuições Pessoais
 
@@ -128,6 +130,7 @@ Virtualização de nível de sistema operacional para uso de contêineres.
 - Typescript: Sei fazer com autonomia.
 - Docker: Sei usar com ajuda.
 - Prisma: Ouvi falar.
+- Nest.js: Ouvi falar.
 
 ### Soft Skills
 - Organização \
