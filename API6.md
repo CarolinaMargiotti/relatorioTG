@@ -29,7 +29,7 @@ A Visiona é uma empresa de atividade espacial que oferece integrações de sist
 
 ## Problema
 <p align="justify">
-A empresa parceira Visiona possui um aplicativo para registro e administração de cultivos de soja, nele o agricultor pode registrar suas plantas e receber estatísticas sobre sua plantação, mas para o registro de amostras era exigido que ele fosse a campo, colhesse três amostras e contasse manualmente cada vagem e sentimento dessas plantas para o preenchimento de dados no aplicativo, isso levava em torno de 15 minutos para o agricultor e tornava o uso do aplicativo não tão conveniente. Vendo uma oportunidade de melhoria nesse aspecto, a Visiona veio a nós pedir para criar uma nova funcionalidade para a aplicação: Uma inteligência artificial que dava uma estimativa das vagens e sementes por planta apartir de uma foto da mesma, facilitando e agilizando seu trabalho.
+A empresa parceira Visiona possui um aplicativo para registro e administração de cultivos de soja, nele o agricultor pode registrar suas plantas e receber estatísticas sobre sua plantação, mas para o registro de amostras era exigido que ele fosse a campo, colhesse três amostras e contasse manualmente cada vagem e sentimento dessas plantas para o preenchimento de dados no aplicativo, isso levava em torno de 15 minutos para o agricultor e tornava o uso do aplicativo não tão conveniente. Vendo uma oportunidade de melhoria nesse aspecto, a Visiona pediu a nós uma nova funcionalidade para a aplicação: uma inteligência artificial que dava uma estimativa das vagens e sementes por planta a partir de uma foto da mesma, facilitando e agilizando seu trabalho.
 </p>
 
 ## Solução
@@ -55,7 +55,7 @@ Criei modal com instruções de como tirar a imagem para facilitar a relação u
 ##### Integração api
 Criamos nossa própria api para isolar os endpoints da IA do restante do aplicativo, fui responsável pela integração.
 
-##### Atribuição automatica
+##### Atribuição automática
 Programei para os dados recebidos pela api da contagem de sementes ser atribuída automaticamente nos campos.
 
 <p align="center">
@@ -63,7 +63,7 @@ Programei para os dados recebidos pela api da contagem de sementes ser atribuíd
 </p>
     
 ##### Conserto de bugs do aplicativo
-O aplicativo original continha vários bugs que não foram resolvidos pela falta de tempo, não só no front mas no back também, resolvi os seguintes do front durante o desenvolvimento da nossa funcionalidade:
+O aplicativo original continha vários bugs que não foram resolvidos pela falta de tempo, não só no front, mas no back também, resolvi os seguintes do front durante o desenvolvimento da nossa funcionalidade:
 - Bug que o datepicker não pegava a data inserida.
 - Bug que causava erro ao tentar criar uma amostra.
 
@@ -140,4 +140,4 @@ Mantive o nosso site de escolha de gerenciamento de projeto atualizado e todas a
 Durante as sprints relembrava a equipe e cobrava de fazer dailies e sprint reviews e retrospectives para mantermos todos informados e animados com o projeto.
 
 - Problem Solving \
-Como falado no desenvolvimento, eu resolvi os problemas de infraestrutura que encontramos durante o desenvolvimento, e é uma área que não conheço bem então foi um desafio grande para mim, mas com analise e estudo foram resolvidos eventualmente por mim.
+Como falado no desenvolvimento, eu resolvi os problemas de infraestrutura que encontramos durante o desenvolvimento, e é uma área que não conheço bem então foi um desafio grande para mim, mas com análise e estudo foram resolvidos eventualmente por mim.
