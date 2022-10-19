@@ -43,17 +43,17 @@ Foi feito um fork dos repositórios de front e back-end do aplicativo original p
 #### ESoja Mobile
 
 ##### Reordenação das telas
-As telas de criar cadastro ja continha uma funcionalidade para salvamento de imagem, ela foi reaproveitada para permitir o usuario informar a imagem que deseja usar para calcular o numero de sementes, isso exigiu uma refatoração das telas pela bagunça na navegação e transferência de dados entre telas.
+As telas de criar cadastro já continha uma funcionalidade para salvamento de imagem, ela foi reaproveitada para permitir o usuário informar a imagem que deseja usar para calcular o número de sementes, isso exigiu uma refatoração das telas pela bagunça na navegação e transferência de dados entre telas.
 
 ##### Modal de instruções
-Criei modal com instruções de como tirar a imagem para facilitar a relação usuario e inteligencia artificial.
+Criei modal com instruções de como tirar a imagem para facilitar a relação usuário e inteligência artificial.
 <img alt="png do modal" src="./imagens/api6/modal.png" height="500">   
 
 ##### Integração api
-Criamos nossa própria api para isolar os endpoints da IA do restante do aplicativo, fui responsavel pela integração.
+Criamos nossa própria api para isolar os endpoints da IA do restante do aplicativo, fui responsável pela integração.
 
 ##### Atribuição automatica
-Programei para os dados recebidos pela api da contagem de sementes ser atribuida automaticamente nos campos.
+Programei para os dados recebidos pela api da contagem de sementes ser atribuída automaticamente nos campos.
 <img alt="gif upload da imagem e atribuição" src="./imagens/api6/chamada-endpoint-atribuicao.gif" height="500">
 
 ##### Conserto de bugs do aplicativo
@@ -69,8 +69,8 @@ O aplicativo original continha vários bugs que não foram resolvidos pela falta
 #### Soyia-api
 
 ##### Estruturar o projeto em flask
-##### Rresize e padding de imagem
-O script foi criado para auxiliar a IA por IAs ter uma eficiência maior quando todas as imagens tem o mesmo tamanho.
+##### Resize e padding de imagem
+O script foi criado para auxiliar a IA por IAs ter uma eficiência maior quando todas as imagens têm o mesmo tamanho.
 Resultado de um padding e resize:
 
 <img alt="foto soja resized com padding" src="./imagens/api6/newSoja.jpg" height="500">   
@@ -88,10 +88,10 @@ Tivemos muitos problemas para fazer o aplicativo rodar pela falta de documentaç
 
 #### Front
 - Descobri como configurar o emulador do Android Studio para rodar as mudanças locais para o desenvolvimento.
-- Descobri que precisava por os ips da maquina local no arquivo de api para o aplicativo no emulador mobile encontrar o servidor.
+- Descobri que precisava por os ips da máquina local no arquivo de api para o aplicativo no emulador mobile encontrar o servidor.
 
 #### Armazenamento de imagens
-- Configurei o firebase para conseguirmos armazernamos as imagens.
+- Configurei o firebase para conseguirmos armazenarmos as imagens.
 
 ## Tecnologias Utilizadas
 - React Native \
