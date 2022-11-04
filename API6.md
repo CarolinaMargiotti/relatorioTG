@@ -29,7 +29,7 @@ A Visiona é uma empresa de atividade espacial que oferece integrações de sist
 
 ## Problema
 <p align="justify">
-A empresa parceira Visiona possui um aplicativo para registro e administração de cultivos de soja, nele o agricultor pode registrar suas plantas e receber estatísticas sobre sua plantação, mas para o registro de amostras era exigido que ele fosse a campo, colhesse três amostras e contasse manualmente cada vagem e sentimento dessas plantas para o preenchimento de dados no aplicativo, isso levava em torno de 15 minutos para o agricultor e tornava o uso do aplicativo não tão conveniente. Vendo uma oportunidade de melhoria nesse aspecto, a Visiona pediu a nós uma nova funcionalidade para a aplicação: uma inteligência artificial que dava uma estimativa das vagens e sementes por planta a partir de uma foto da mesma, facilitando e agilizando seu trabalho.
+A empresa parceira Visiona possui um aplicativo para registro e administração de cultivos de soja, nele o agricultor pode registrar suas plantas e receber estatísticas sobre sua plantação, mas para o registro de amostras era exigido que ele fosse a campo, colhesse três amostras e contasse manualmente cada vagem e semente dessas plantas para o preenchimento de dados no aplicativo, isso levava em torno de 15 minutos para o agricultor e tornava o uso do aplicativo não tão conveniente. Vendo uma oportunidade de melhoria nesse aspecto, a Visiona pediu a nós uma nova funcionalidade para a aplicação: uma inteligência artificial que dava uma estimativa das vagens e sementes por planta a partir de uma foto da mesma, facilitando e agilizando seu trabalho.
 </p>
 
 ## Solução
@@ -38,12 +38,14 @@ A empresa parceira Visiona possui um aplicativo para registro e administração 
 Foi feito fork dos repositórios de front e back-end do aplicativo original para facilitar o desenvolvimento das nossas mudanças e também foi criado um segundo back-end para isolar as funcionalides de IA.
 </p>
 
+Eu trabalhei no front do aplicativo e no back do aplicativo. Minhas constribuições até o momento foram as seguintes:
+
 ### Client
 
 #### ESoja Mobile
 
 ##### Reordenação das telas
-As telas de criar cadastro já continha uma funcionalidade para salvamento de imagem, ela foi reaproveitada para permitir o usuário informar a imagem que deseja usar para calcular o número de sementes, isso exigiu uma refatoração das telas pela bagunça na navegação e transferência de dados entre telas.
+As telas de criar cadastro já continham uma funcionalidade para salvamento de imagem, ela foi reaproveitada para permitir o usuário informar a imagem que deseja usar para calcular o número de sementes, isso exigiu uma refatoração das telas pela bagunça na navegação e transferência de dados entre telas.
 
 ##### Modal de instruções
 Criei modal com instruções de como tirar a imagem para facilitar a relação usuário e inteligência artificial.
