@@ -58,14 +58,14 @@ Criei modal com instruções de como tirar a imagem para facilitar a relação u
 Criamos nossa própria api para isolar os endpoints da IA do restante do aplicativo, fui responsável pela integração.
 
 ##### Atribuição automática
-Programei para os dados recebidos pela api da contagem de sementes ser atribuída automaticamente nos campos.
+Programei os dados recebidos pela api da contagem de sementes para serem atribuídos automaticamente aos campos.
 
 <p align="center">
 <img alt="gif upload da imagem e atribuição" src="./imagens/api6/chamada-endpoint-atribuicao.gif" height="500">
 </p>
     
 ##### Conserto de bugs do aplicativo
-O aplicativo original continha vários bugs que não foram resolvidos pela falta de tempo, não só no front, mas no back também, resolvi os seguintes do front durante o desenvolvimento da nossa funcionalidade:
+O aplicativo original continha vários bugs que não foram resolvidos pela falta de tempo, não só no front, mas no back também, resolvi os seguintes do front durante o desenvolvimento da nossa funcionalidade até o momento:
 - Bug que o datepicker não pegava a data inserida.
 - Bug que causava erro ao tentar criar uma amostra.
 
@@ -87,7 +87,7 @@ Consertei um bug que causava erro ao criar uma propriedade.
 Criei um projeto em flask para colocarmos nossos endpoints da IA.
 
 ##### Resize e padding de imagem
-O script foi criado para auxiliar a IA por IAs ter uma eficiência maior quando todas as imagens têm o mesmo tamanho.
+O script de processamento de imagem foi criado para auxiliar a IA, por IAs ter uma eficiência maior quando todas as imagens têm o mesmo tamanho.
 Resultado de um padding e resize:
 
 <p align="center">
@@ -96,12 +96,12 @@ Resultado de um padding e resize:
 
 ##### Infraestrutura
 Tivemos muitos problemas para fazer o aplicativo rodar pela falta de documentação, os que analisei e ajustei para a equipe no back são:
-- Consertei o arquivo env para conseguir levantar o docker.
-- Descobri que ja ter um postgres instalado localmente no sistema confundia o servidor.
+- Consertei o arquivo env para conseguir levantar os containers do docker.
+- Descobri que ja ter um postgres instalado localmente no sistema confundia o servidor e resultava em erro.
 - Criei um script para fazer o servidor abrir adequadamente.
 - Descobri quais eram as urls de request e como chama-las.
 - Descobri como fazer autenticação para adquirir o token para os requests avançados.
-- Configurei o firebase para conseguirmos armazenarmos as imagens.
+- Configurei o firebase para conseguirmos fazer armazenamento das imagens.
 
 ## Tecnologias Utilizadas
 - React Native \
